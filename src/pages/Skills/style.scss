@@ -22,6 +22,11 @@
   }
 
   .skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // align-content: center;
+
     .skills-content {
       font-size: 0.875rem;
       line-height: 1.5rem;

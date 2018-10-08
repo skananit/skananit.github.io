@@ -25,23 +25,23 @@ class App extends Component {
             <Transition
               height="400px"
               from="#ffffff"
-              to="#e8f3ff"
+              to="#eaf4ff"
               position={0.2}
             />
 
             <AboutPage />
             <Transition
               height="400px"
-              from="#e8f3ff"
-              to="#eaeaea"
+              from="#eaf4ff"
+              to="#f2f2f2"
               position={0.2}
             />
 
             <ResumePage />
-            <Transition height="400px" from="#eaeaea" to="#f2fff6" />
+            <Transition height="400px" from="#f2f2f2" to="#eaf4ff" />
 
             <PortfolioPage />
-            <Transition height="400px" from="#f2fff6" to="#ffffff" />
+            <Transition height="400px" from="#eaf4ff" to="#ffffff" />
 
             <SkillPage />
 

@@ -21,7 +21,7 @@ const Footer = (props, context) => {
             Shima
           </a>{" "}
           <span role="img" aria-label="heart">
-            💚
+            💙
           </span>
         </div>
       </div>

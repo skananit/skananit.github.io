@@ -11,9 +11,9 @@ class ThemeSwitcher extends Component {
     this.state = {
       theme: {
         name: "red",
-        colorPrimary: "#36AC92",
+        colorPrimary: "#3e76d1",
         colorAlternate: "#FAFAFA",
-        colorHighlight: "#CDFAF0",
+        colorHighlight: "#cfe6f9",
         textPrimary: "#202121",
         navAlpha: "rgba(250, 250, 250, 0.75)"
       }

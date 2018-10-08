@@ -20,11 +20,11 @@ const PortfolioPage = (props, context) => {
           <style jsx="true">
             {`
               .portfolio-item {
-                background-color: ${colorPrimary};
-                color: ${textAlternate};
+                background-color: ${"#2964c4"};
+                color: ${"#ffffff"};
               }
               .portfolio-item a {
-                color: ${textAlternate};
+                color: ${"#ffffff"};
               }
               .portfolio-item__links a:hover {
                 border-bottom: 2px solid ${colorAlternate};

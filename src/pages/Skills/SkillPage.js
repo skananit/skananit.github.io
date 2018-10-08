@@ -260,43 +260,43 @@ const SkillsPage = (props, context) => {
                 categories={[
                   {
                     name: "Data Science",
-                    color: "#af3d4e"
+                    color: "#0b2d66"
                   },
                   {
                     name: "Databases",
-                    color: "#b482ff"
+                    color: "#23509b"
                   },
                   {
                     name: "Design",
-                    color: "#00a9ff"
+                    color: "#3971ce"
                   },
                   {
                     name: "Frameworks",
-                    color: "#ff4c6a"
+                    color: "#679bef"
                   },
                   {
                     name: "Javascript",
-                    color: "#aaf7bb"
+                    color: "#6d8cbf"
                   },
                   {
                     name: "Languages",
-                    color: "#82ffad"
+                    color: "#032154"
                   },
                   {
                     name: "Machine Learning",
-                    color: "#fffa82"
+                    color: "#195fb5"
                   },
                   {
                     name: "Other",
-                    color: "#82ffad"
+                    color: "#5495e5"
                   },
                   {
                     name: "Tools",
-                    color: "#40494e"
+                    color: "#74aff7"
                   },
                   {
                     name: "Web Development",
-                    color: "#cc7b94"
+                    color: "#99c3f7"
                   }
                 ]}
               />

@@ -25,26 +25,34 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              I'm a product-focused developer who loves creating innovative
-              solutions and making things happen. I’ve spent the past three
-              years studying software engineering and my summers gaining
-              hands-on experience to further develop my technical skills. Most
-              recently, I completed a summer internship at
+              I'm a <span className="highlight">product-focused developer</span>{" "}
+              who loves creating innovative solutions and making things happen.
+              I’ve spent the past three years studying software engineering and
+              my summers gaining hands-on experience to further develop my
+              technical skills. I love{" "}
+              <span className="highlight">JavaScript</span> and everything web!
+            </p>
+            <p>
+              Most recently, I completed a summer internship at
               <a href={"https://digitalfactory.scotiabank.com"}>
                 {" "}
                 Scotiabank’s Digital Banking Unit{" "}
               </a>
-              which led me to discover my desire for solving problems at the
-              intersection of business and technology. Having a passion for
-              learning, I decided to pursue a dual degree in business and
-              engineering at
+              which led me to discover my passion for{" "}
+              <span className="highlight">
+                solving problems at the intersection of business and technology
+              </span>
+              . Having a love for learning, I decided to pursue a dual degree in
+              business and engineering at{" "}
               <a href={"https://www.ivey.uwo.ca"}> Ivey Business School</a>,
               <a href={"https://www.uwo.ca"}> Western University. </a>
             </p>
-
             <p>
-              Being highly motivated to encourage young women to pursue careers
-              in tech drove me to start{" "}
+              Being highly motivated by{" "}
+              <span className="highlight">
+                encouraging young women to pursue careers in tech
+              </span>{" "}
+              inspired me to start
               <a href={"https://girlplusplus.ca"}> girl++ </a>
               with a classmate. Our goal is to empower, educate, and guide
               females pursuing post-secondary studies who have an interest in
@@ -62,13 +70,11 @@ const AboutPage = (props, context) => {
               cuisines and eating terrific food, watching standup comedies or
               documentaries, and spending quality time with friends and family.
             </p>
-
             <p>
-              I love exchanging stories with other developers, designers, and
-              students. Feel free to contact me on{" "}
-              <a href={"https://www.linkedin.com/in/shimakanani/"}>
-                <span className="highlight">Linkedin</span>!
-              </a>
+              <span className="highlight">Let's connect</span>, I love
+              exchanging stories with other developers, designers, and students.
+              Feel free to contact me on{" "}
+              <a href={"https://www.linkedin.com/in/shimakanani/"}>Linkedin!</a>
             </p>
           </div>
         </div>

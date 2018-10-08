@@ -13,7 +13,7 @@ class ThemeSwitcher extends Component {
         name: "red",
         colorPrimary: "#3e76d1",
         colorAlternate: "#FAFAFA",
-        colorHighlight: "#cfe6f9",
+        colorHighlight: "#cfeef9",
         textPrimary: "#202121",
         navAlpha: "rgba(250, 250, 250, 0.75)"
       }

@@ -9,8 +9,8 @@ $border-radius: 2px;
   transition: box-shadow 0.25s;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px -2px rgba(0, 0, 0, 0.2);
-  width: 19rem;
-  // width: 25rem;
+  // width: 19rem;
+  width: 35rem;
 
   margin: 1rem 1rem;
 
@@ -38,7 +38,7 @@ $border-radius: 2px;
     display: flex;
     flex-direction: column;
     padding: 0 0.5rem;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 300;
     text-align: center;
     line-height: 1.25rem;
@@ -53,9 +53,23 @@ $border-radius: 2px;
     display: inline-block;
     flex-direction: column;
 
-    padding: 0.7rem;
-    font-size: 0.9rem;
+    // padding-top: 0.7rem;
+    font-size: 1rem;
     font-weight: 400;
+    text-align: center;
+    line-height: 1.25rem;
+
+    @include breakpoint-small-down {
+      font-size: 0.875rem;
+    }
+  }
+  &__location {
+    display: inline-block;
+    flex-direction: column;
+
+    padding: 0.7rem;
+    font-size: 0.8rem;
+    font-weight: 300;
     text-align: center;
     line-height: 1.25rem;
 
@@ -83,8 +97,8 @@ $border-radius: 2px;
 
     img {
       // border: 1.5px solid #1ba687;
-      height: 7.5rem;
-      width: 13rem;
+      height: 9.2rem;
+      width: 15rem;
       // position: relative;
       &:hover {
         cursor: pointer;
@@ -94,11 +108,11 @@ $border-radius: 2px;
   }
 
   &__links {
-    padding: 0 0 0.75rem;
+    padding-top: 0.4rem;
     display: flex;
     justify-content: space-around;
-    font-size: 0.875rem;
-    font-weight: 400;
+    font-size: 0.8rem;
+    font-weight: 300;
 
     a {
       padding-bottom: 0.25rem;
@@ -106,7 +120,7 @@ $border-radius: 2px;
 
       &:hover {
         cursor: pointer;
-        border-bottom: 2px solid inherit;
+        border-bottom: 2px solid #3e76d1;
       }
     }
   }

@@ -215,6 +215,11 @@ const SkillsPage = (props, context) => {
                     category: ["Languages"]
                   },
                   {
+                    title: "Java++",
+                    compentency: 5,
+                    category: ["Languages"]
+                  },
+                  {
                     title: "Photoshop",
                     compentency: 3,
                     category: ["Design"]

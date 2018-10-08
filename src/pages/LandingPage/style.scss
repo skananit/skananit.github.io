@@ -1,4 +1,4 @@
-@import 'breakpoints';
+@import "breakpoints";
 
 .landing-page {
   min-height: 100vh;
@@ -27,9 +27,9 @@
       text-align: center;
 
       > .intro-name {
-        font-family: 'Reem Kufi', sans-serif;
+        font-family: "Reem Kufi", sans-serif;
         font-size: 4rem;
-        font-weight: bold;
+        font-weight: 500;
         line-height: 4rem;
         padding-bottom: 1rem;
 

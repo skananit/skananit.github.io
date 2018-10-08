@@ -21,6 +21,7 @@ const ResumeItem = (props, context) => {
           </a>
         </div>
         <div className="resume-item__position">Position</div>
+        <div className="resume-item__location">Location</div>
 
         <div className="resume-item__desc">
           I do badass things and kickass everyday! I do badass things and
@@ -28,7 +29,10 @@ const ResumeItem = (props, context) => {
         </div>
 
         <div className="resume-item__links">
-          <a src="#">blog</a>
+          <a href="#">
+            <i className="fas fa-external-link-alt" />
+            blog
+          </a>
         </div>
         <div className="resume-item__date">Date</div>
       </div>

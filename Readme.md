@@ -1,3 +1,0 @@
-# Shima Kananitodashki
-
-Portfolio Website 

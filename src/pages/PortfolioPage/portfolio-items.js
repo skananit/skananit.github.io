@@ -17,7 +17,7 @@ export default [
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/skananit/audio-visualization"
+            href="https://github.com/skananit/audio-visualizer"
           >
             <i className="fas fa-external-link-alt" />
             {"  "}

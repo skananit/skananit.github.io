@@ -19,14 +19,16 @@ export default [
             rel="noopener noreferrer"
             href="https://github.com/skananit/audio-visualization"
           >
-            GITHUB
+            <i className="fas fa-external-link-alt" />
+            {"  "}
+            Code
           </a>
         </div>
       </div>
     )
   },
   {
-    name: "typy",
+    name: "selfstart",
     render: (
       <div className="portfolio-item">
         <div className="portfolio-item__title">Self Start, Body Smart</div>
@@ -44,7 +46,8 @@ export default [
             rel="noopener noreferrer"
             href="https://www.youtube.com/watch?v=nUiOFurz1N0"
           >
-            PRODUCT DEMO
+            <i className="fas fa-external-link-alt" /> {"  "}
+            Product Demo
           </a>
           {/* <a target="_blank" rel="noopener noreferrer" href="https://github.com//typy">More</a> */}
         </div>
@@ -53,31 +56,24 @@ export default [
   },
 
   {
-    name: "npm-module-boilerplate",
+    name: "location",
     render: (
       <div className="portfolio-item">
         <div className="portfolio-item__title">Geolocation & Geofencing</div>
-        <div className="portfolio-item__desc">Geolocation feature </div>
+        <div className="portfolio-item__desc">
+          Location features used hand in hand to either restrict users from an
+          app's features or reward them
+        </div>
         <div className="portfolio-item__icon">
-          <i className="fab fa-js" />
           <i className="fab fa-react" />
+          <i className="fab fa-js" />
           <i className="fab fa-node" />
         </div>
         <div className="portfolio-item__links">
-          {/* <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://dev.to//publish-your-own-npm-package---5b71"
-          >
-            Blog
+          <a target="_blank" rel="noopener noreferrer" href="shimakanani.com">
+            <i className="fas fa-external-link-alt" /> {"  "}
+            Code
           </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com//npm-module-boilerplate"
-          >
-            More
-          </a> */}
         </div>
       </div>
     )
@@ -86,20 +82,20 @@ export default [
     name: "chit-chat-app",
     render: (
       <div className="portfolio-item">
-        <div className="portfolio-item__title">Chatroom App</div>
+        <div className="portfolio-item__title">Chatroom Application</div>
         <div className="portfolio-item__desc">
           Multithreaded chatroom written in Java
         </div>
-        <div className="portfolio-item__icon">
-          <i className="fab fa-java" />
-        </div>
+        <div className="portfolio-item__icon">{"  "} </div>
         <div className="portfolio-item__links">
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/skananit/chit-chat-app"
           >
-            More
+            <i className="fas fa-external-link-alt" />
+            {"  "}
+            Code
           </a>
         </div>
       </div>
@@ -111,10 +107,11 @@ export default [
       <div className="portfolio-item">
         <div className="portfolio-item__title">Portfolio Website</div>
         <div className="portfolio-item__desc">
-          Simple portfolio hosted on GitHub Pages
+          Simple portfolio website hosted on GitHub Pages
         </div>
         <div className="portfolio-item__icon">
           <i className="fab fa-react" />
+          <i className="fab fa-js" />
         </div>
         <div className="portfolio-item__links">
           <a
@@ -122,7 +119,8 @@ export default [
             rel="noopener noreferrer"
             href="https://github.com/skananit/skananit.github.io"
           >
-            More
+            <i className="fas fa-external-link-alt" /> {"  "}
+            Code
           </a>
         </div>
       </div>
@@ -136,7 +134,7 @@ export default [
           Blood Donation Management System
         </div>
         <div className="portfolio-item__desc">
-          Database management tool enhances blood donors’ donation experience
+          Database management tool to enhance blood donors’ donation experience
         </div>
         <div className="portfolio-item__icon">
           <i className="fab fa-angular" />
@@ -149,7 +147,9 @@ export default [
             rel="noopener noreferrer"
             href="https://github.com/skananit/blood-donation-management-system"
           >
-            GITHUB
+            <i className="fas fa-external-link-alt" />
+            {"  "}
+            Code
           </a>
         </div>
       </div>

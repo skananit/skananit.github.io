@@ -143,7 +143,7 @@ const SkillsPage = (props, context) => {
 
                   {
                     title: "Product Development",
-                    compentency: 3,
+                    compentency: 4,
                     category: ["Other"]
                   },
                   {
@@ -215,7 +215,7 @@ const SkillsPage = (props, context) => {
                     category: ["Languages"]
                   },
                   {
-                    title: "Java++",
+                    title: "Java",
                     compentency: 5,
                     category: ["Languages"]
                   },

@@ -33,7 +33,8 @@ export default [
       <div className="portfolio-item">
         <div className="portfolio-item__title">Self Start, Body Smart</div>
         <div className="portfolio-item__desc">
-          Patient management software for a local physiotherapist
+          Patient management software for a local physiotherapist in London
+          Ontario
         </div>
         <div className="portfolio-item__icon">
           <i className="fab fa-ember" />
@@ -107,7 +108,7 @@ export default [
       <div className="portfolio-item">
         <div className="portfolio-item__title">Portfolio Website</div>
         <div className="portfolio-item__desc">
-          Simple portfolio website hosted on GitHub Pages
+          Simple portfolio website hosted on GitHub Pages (Demoed right here!)
         </div>
         <div className="portfolio-item__icon">
           <i className="fab fa-react" />

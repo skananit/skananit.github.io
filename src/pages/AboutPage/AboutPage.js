@@ -29,8 +29,13 @@ const AboutPage = (props, context) => {
               who loves creating innovative solutions and making things happen.
               I’ve spent the past three years studying software engineering and
               my summers gaining hands-on experience to further develop my
-              technical skills. I love{" "}
-              <span className="highlight">JavaScript</span> and everything web!
+              technical skills. As a highly empathetic individual, I have always
+              strived to understand an experience from the end user’s
+              perspective. My love for{" "}
+              <span className="highlight">JavaScript</span> and everything web,
+              combined with my curiosity inspires me to explore new ways to{" "}
+              <span className="highlight">solve unmet user needs</span> through
+              user research and intuitive interactions.
             </p>
             <p>
               Most recently, I completed a summer internship at

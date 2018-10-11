@@ -13,7 +13,7 @@ export default [
         </div>
         <div className="resume-item__position">
           {/* <i className="fas fa-briefcase" /> {"  "} */}
-          Business Development, Innovation Team
+          Business Development, Innovations Team
         </div>
         <div className="resume-item__location">
           <i className="fas fa-map-marker-alt" /> {"  "}
@@ -22,10 +22,11 @@ export default [
         <div className="resume-item__desc">
           Ivey FinTech aims to drive thought leadership on the future of
           financial services innovation at Ivey and beyond. As a leader on the
-          innovation team, I direct tech initiatives to create, prototype and
-          test digital solutions for students with a goal of increasing
-          students' exposure to digital disruption and ultimately supporting the
-          development of Canada’s Fintech ecosystem.
+          innovations team, I assess market traction of digital products for
+          university students and direct tech initiatives to create, prototype
+          and test these solutions. My goal is to increase students' exposure to
+          digital disruption and ultimately support the development of Canada’s
+          fintech ecosystem.
         </div>
         <div className="resume-item__date">September 2018 - Present </div>
       </div>
@@ -76,17 +77,72 @@ export default [
         </div>
         <div className="resume-item__position">
           <i className="fas fa-graduation-cap" /> {"  "}
-          Bachelor's Degree, Honors Business Administration
+          Bachelor's Degree, Honors Business Administration (HBA)
         </div>
         <div className="resume-item__location">
           <i className="fas fa-map-marker-alt" /> {"  "}
           London, ON
         </div>
         <div className="resume-item__desc">
-          Pursuing a dual degree with Software Engineering and Business at
-          Western's Ivey Business School.
+          Ivey is famous for its practical, collaborative teaching approach by
+          relying extensively on the case method of study. Learning is done
+          through working with actual business challenges faced by real
+          managers. Every day in class we analyze information, make decisions,
+          and defend those decisions when others around us may disagree. As a
+          dual degree student, I take Software Engineering and Business courses
+          over the span of five years at Western's Engineering Faculty and Ivey
+          Business School.
+        </div>
+
+        <div className="resume-item__links">
+          <a href="https://www.ivey.uwo.ca/hba/program-details/why-ivey/">
+            <i className="fas fa-external-link-alt" /> HBA Program
+          </a>
+          <a href="https://www.ivey.uwo.ca/hba/program-details/ivey-hba1-year-3/">
+            <i className="fas fa-external-link-alt" /> HBA1 Courses
+          </a>
+          <a href="https://www.eng.uwo.ca/electrical/pdf/programs/software.pdf#software">
+            <i className="fas fa-external-link-alt" /> Software Engineering
+            Courses
+          </a>
+          <a href="http://www.westerncalendar.uwo.ca/Modules.cfm?ModuleID=21449&SelectedCalendar=Live&ArchiveID=">
+            <i className="fas fa-external-link-alt" /> Dual Degree Program
+          </a>
         </div>
         <div className="resume-item__date">September 2018 - April 2020 </div>
+      </div>
+    )
+  },
+  {
+    name: "scotia",
+    render: (
+      <div className="resume-item">
+        {/* <div className="resume-item__company">IVEY FINTECH</div> */}
+        <div className="resume-item__pic">
+          <a href={"https://www.scotiabank.com/gls/en/index.html#about"}>
+            <img className="logos" src={"/images/scotiabank.png"} />
+          </a>
+        </div>
+        <div className="resume-item__position">
+          {/* <i className="fas fa-briefcase" /> {"  "} */}
+          Software Engineering Intern
+        </div>
+        <div className="resume-item__location">
+          <i className="fas fa-map-marker-alt" /> {"  "}
+          Waterloo, ON
+        </div>
+        <div className="resume-item__desc">
+          Scotiabank’s Digital Banking Unit in Waterloo consisted of a small,
+          yet tight-knit team of user experience designers and engineers. We
+          delivered a classified project aiming to transform the future of
+          banking by redefining the relationship a customer has with their
+          finances. My role involved developing an app (full stack, end-to-end)
+          soon to be released in Google Play and App Store. I worked in an agile
+          team of engineers with a test-driven, code review culture. Plus, I got
+          to be a part of every step of the project; from ideation to
+          development, execution, and delivery!
+        </div>
+        <div className="resume-item__date">May 2018 - August 2018 </div>
       </div>
     )
   },
@@ -127,38 +183,6 @@ export default [
           </a>
         </div>
         <div className="resume-item__date">May 2018 - Present </div>
-      </div>
-    )
-  },
-  {
-    name: "scotia",
-    render: (
-      <div className="resume-item">
-        {/* <div className="resume-item__company">IVEY FINTECH</div> */}
-        <div className="resume-item__pic">
-          <a href={"https://www.scotiabank.com/gls/en/index.html#about"}>
-            <img className="logos" src={"/images/scotiabank.png"} />
-          </a>
-        </div>
-        <div className="resume-item__position">
-          {/* <i className="fas fa-briefcase" /> {"  "} */}
-          Software Engineering Intern
-        </div>
-        <div className="resume-item__location">
-          <i className="fas fa-map-marker-alt" /> {"  "}
-          Waterloo, ON
-        </div>
-        <div className="resume-item__desc">
-          Scotiabank’s Digital Banking Unit in Waterloo consisted of a small,
-          yet tight-knit team of user experience designers and engineers. We
-          delivered a classified project aiming to transform the future of
-          banking by redefining the relationship a customer has with their
-          finances. My role involved developing an app (full stack, end-to-end),
-          soon to be released in Google Play and App Store. Plus, I got to be a
-          part of every step of the project; from ideation to development,
-          execution, and delivery.
-        </div>
-        <div className="resume-item__date">May 2018 - August 2018 </div>
       </div>
     )
   },
@@ -403,6 +427,18 @@ export default [
         <div className="resume-item__desc">
           Entered Western University as an Engineering student awarded the
           Western Excellence scholarship.
+        </div>
+        <div className="resume-item__links">
+          <a href="https://www.eng.uwo.ca/electrical/pdf/programs/software.pdf#software">
+            <i className="fas fa-external-link-alt" />
+            {"  "}
+            Software Engineering Program Structure
+          </a>
+          <a href="https://www.eng.uwo.ca/undergraduate/future-students/experience-western-engineering/common-first-year.html">
+            <i className="fas fa-external-link-alt" />
+            {"  "}
+            Common First Year Engineering Courses
+          </a>
         </div>
         <div className="resume-item__date">September 2015 - April 2020</div>
       </div>

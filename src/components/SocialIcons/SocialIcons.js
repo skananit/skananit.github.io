@@ -37,7 +37,7 @@ const SocialIcons = (props, context) => {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="%PUBLIC_URL%/resume.pdf"
+        href="/resume.pdf"
         style={{ color: colorPrimary }}
       >
         <i className="far fa-file-pdf" />

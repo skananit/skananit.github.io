@@ -13,7 +13,7 @@ export default [
         </div>
         <div className="resume-item__position">
           {/* <i className="fas fa-briefcase" /> {"  "} */}
-          Business Analyst, Innovations Team
+          Business Lead, Innovations Portfolio
         </div>
         <div className="resume-item__location">
           <i className="fas fa-map-marker-alt" /> {"  "}
@@ -21,12 +21,14 @@ export default [
         </div>
         <div className="resume-item__desc">
           Ivey FinTech aims to drive thought leadership on the future of
-          financial services innovation at Ivey and beyond. As a leader on the
-          innovations team, I assess market traction of digital products for
-          university students and direct tech initiatives to create, prototype
-          and test these solutions. My goal is to increase students' exposure to
-          digital disruption and ultimately support the development of Canada’s
-          fintech ecosystem.
+          financial services innovation at Ivey and beyond. As a Business
+          Analyst, I lead a cross-functional team that is building, prototyping,
+          and testing a digital financial product for university students. I am
+          responsible for guiding the success of the product by assessing its
+          market traction, defining its features, technical requirements and
+          specifications. My goal is to increase students' exposure to digital
+          disruption and ultimately support the development of Canada’s FinTech
+          ecosystem.
         </div>
         <div className="resume-item__date">September 2018 - Present </div>
       </div>
@@ -167,12 +169,13 @@ export default [
         </div>
         <div className="resume-item__desc">
           International Association for the Exchange of Students for Technical
-          Experience (IAESTE) is a unique organization provides students with
-          the valuable experience of working abroad. As president, I lead the
-          local chapter by supervising the team’s activities, establishing goals
-          for the chapter, and creating a plan to meet the national goals of the
-          organization. Activities of the local chapter include planning,
-          promoting, and facilitating international internships.
+          Experience (IAESTE) is a unique organization that provides students
+          with the valuable experience of working abroad. As president of the
+          local chapter in London, I lead a team of 14 executives by
+          establishing common goals, supervising assigned projects, and creating
+          a plan to meet the national goals of the organization. Activities of
+          our local chapter include planning, promoting, and facilitating
+          international internships.
         </div>
 
         <div className="resume-item__links">
@@ -246,11 +249,12 @@ export default [
         </div>
         <div className="resume-item__desc">
           International Association for the Exchange of Students for Technical
-          Experience (IAESTE) is a unique organization provides students with
-          the valuable experience of working abroad. Eager to provide our campus
-          with such opportunities, I got involved with London's local chapter.
-          As Recruitment Manager, I recruited seven local companies and five
-          university professors to participate in the exchange program.
+          Experience (IAESTE) is a unique organization that provides students
+          with the valuable experience of working abroad. Eager to provide our
+          campus with such opportunities, I got involved with London's local
+          chapter in 2017. As Recruitment Manager, I recruited seven local
+          companies and five university professors to participate in our
+          exchange program.
         </div>
         <div className="resume-item__date">September 2017 - April 2018 </div>
       </div>

@@ -21,11 +21,11 @@ export default [
         </div>
         <div className="resume-item__desc">
           Ivey FinTech aims to drive thought leadership on the future of
-          financial services innovation at Ivey and beyond. As a Business
-          Analyst, I lead a cross-functional team that is building, prototyping,
-          and testing a digital financial product for university students. I am
-          responsible for guiding the success of the product by assessing its
-          market traction, defining its features, technical requirements and
+          financial services innovation at Ivey and beyond. I lead a
+          cross-functional team that is building, prototyping, and testing a
+          digital financial product for university students. I am responsible
+          for guiding the success of the product by assessing its market
+          traction, defining its features, technical requirements and
           specifications. My goal is to increase students' exposure to digital
           disruption and ultimately support the development of Canada’s FinTech
           ecosystem.

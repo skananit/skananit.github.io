@@ -135,14 +135,17 @@ export default [
         </div>
         <div className="resume-item__desc">
           Scotiabank’s Digital Banking Unit in Waterloo consisted of a small,
-          yet tight-knit team of user experience designers and engineers. We
-          delivered a classified project aiming to transform the future of
-          banking by redefining the relationship a customer has with their
-          finances. My role involved developing an app (full stack, end-to-end)
-          soon to be released in Google Play and App Store. I worked in an agile
-          team of engineers with a test-driven, code review culture. Plus, I got
-          to be a part of every step of the project; from ideation to
-          development, execution, and delivery!
+          yet tight-knit team of user experience designers and engineers. I
+          completed a 16-week internship and delivered a classified project
+          aiming to transform the future of banking by redefining the
+          relationship a customer has with their finances. My role involved
+          developing an app (full stack) in an agile team of engineers with a
+          test-driven, code review culture. Plus, I had the chance to be a part
+          of every step; from idea generation to the final delivery. Therefore,
+          I had to think strategically and go beyond my role in order to
+          implement the project stakeholders' feedbacks into our project. As the
+          project was completed end-to-end, our app will soon be available on
+          Google Play and App Store given that it is a seasonal product.
         </div>
         <div className="resume-item__date">May 2018 - August 2018 </div>
       </div>

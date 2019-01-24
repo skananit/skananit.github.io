@@ -199,7 +199,7 @@ export default [
       <div className="resume-item">
         {/* <div className="resume-item__company">IVEY FINTECH</div> */}
         <div className="resume-item__pic">
-          <a href={"https://www.linkedin.com/company/w5-idea-accelerator/"}>
+          <a href={"https://www.w5entrepreneurs.com"}>
             <img className="logos" src={"/images/w5.png"} />
           </a>
         </div>

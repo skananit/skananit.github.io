@@ -1,6 +1,7 @@
 import React from "react";
 
 export default [
+    /*
   {
     name: "audio-visualizer",
     render: (
@@ -27,21 +28,26 @@ export default [
       </div>
     )
   },
+  */
   {
     name: "selfstart",
     render: (
       <div className="portfolio-item">
         <div className="portfolio-item__title">Self Start, Body Smart</div>
         <div className="portfolio-item__desc">
-          Patient management software for a local physiotherapist in London
+          Patient management software for a local physiotherapist
+            <br></br>
+            in London
           Ontario
         </div>
+
         <div className="portfolio-item__icon">
           <i className="fab fa-ember" />
           <i className="fab fa-js" />
           <i className="fab fa-node" />
         </div>
         <div className="portfolio-item__links">
+
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -55,7 +61,7 @@ export default [
       </div>
     )
   },
-
+/*
   {
     name: "location",
     render: (
@@ -79,13 +85,15 @@ export default [
       </div>
     )
   },
+  */
   {
     name: "chit-chat-app",
     render: (
       <div className="portfolio-item">
         <div className="portfolio-item__title">Chatroom Application</div>
         <div className="portfolio-item__desc">
-          Multithreaded chatroom written in Java
+            Multithreaded client/server chatroom application allows multiple users to chat in one room.
+            <br></br>(Written in Java)
         </div>
         <div className="portfolio-item__icon">{"  "} </div>
         <div className="portfolio-item__links">
@@ -108,7 +116,8 @@ export default [
       <div className="portfolio-item">
         <div className="portfolio-item__title">Portfolio Website</div>
         <div className="portfolio-item__desc">
-          Simple portfolio website hosted on GitHub Pages (Demoed right here!)
+          Simple portfolio website hosted on GitHub Pages
+            <br></br>(Demoed right here!) <br></br>
         </div>
         <div className="portfolio-item__icon">
           <i className="fab fa-react" />

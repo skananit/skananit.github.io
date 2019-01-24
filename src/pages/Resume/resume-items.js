@@ -13,7 +13,7 @@ export default [
         </div>
         <div className="resume-item__position">
           {/* <i className="fas fa-briefcase" /> {"  "} */}
-          Business Lead, Innovations Portfolio
+          Product Lead, Innovations Portfolio
         </div>
         <div className="resume-item__location">
           <i className="fas fa-map-marker-alt" /> {"  "}
@@ -205,7 +205,7 @@ export default [
         </div>
         <div className="resume-item__position">
           {/* <i className="fas fa-briefcase" /> {"  "} */}
-          Program Director, Startup Accelerator
+          Program Manager, Startup Accelerator
         </div>
         <div className="resume-item__location">
           <i className="fas fa-map-marker-alt" /> {"  "}

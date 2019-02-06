@@ -15,7 +15,7 @@ const PortfolioPage = (props, context) => {
     <div className="portfolio-page">
       <div className="content-grid">
         <h1 style={{ color: colorPrimary }}>PORTFOLIO</h1>
-        <p>(a selection of my recent projects that I'm not too ashamed of)</p>
+          <p><i>(a selection of my recent projects that I'm not too ashamed of)</i></p>
         <div className="portfolio-wrapper">
           <style jsx="true">
             {`

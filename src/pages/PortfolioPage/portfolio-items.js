@@ -1,7 +1,6 @@
 import React from "react";
 
 export default [
-    /*
   {
     name: "audio-visualizer",
     render: (
@@ -28,7 +27,6 @@ export default [
       </div>
     )
   },
-  */
   {
     name: "selfstart",
     render: (
@@ -61,7 +59,6 @@ export default [
       </div>
     )
   },
-/*
   {
     name: "location",
     render: (
@@ -85,7 +82,7 @@ export default [
       </div>
     )
   },
-  */
+
   {
     name: "chit-chat-app",
     render: (

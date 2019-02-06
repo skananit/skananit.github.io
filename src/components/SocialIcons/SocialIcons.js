@@ -37,7 +37,7 @@ const SocialIcons = (props, context) => {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://drive.google.com/drive/folders/1DYFKC6SEr9bQeN9FxZoSqi39Je7DR9Ev?usp=sharing"
+        href="https://drive.google.com/file/d/16aFQnEs4ZgQiSFPynXP3tkbdFJLWiWhQ/view?usp=sharing"
         style={{ color: colorPrimary }}
       >
         <i className="far fa-file-pdf" />

@@ -39,9 +39,9 @@ const AboutPage = (props, context) => {
             </p>
             <p>
               Most recently, I completed a summer internship at
-              <a href={"https://digitalfactory.scotiabank.com/careers/factoryu"}>
+              <a href={"https://digitalfactory.scotiabank.com/"}>
                 {" "}
-                Scotiabank FactoryU{" "}
+                Scotiabank's Digital Banking Unit{" "}
               </a>
               which led me to discover my passion for{" "}
               <span className="highlight">

@@ -3,25 +3,34 @@ import LandingPage from "@pages/LandingPage";
 import AboutPage from "@pages/AboutPage";
 import PortfolioPage from "@pages/PortfolioPage";
 import SkillPage from "@pages/Skills";
-import ParallaxBackground from "@components/ParallaxBackground";
 import ScrollTop from "@components/ScrollTop";
 import ThemeSwitcher from "@components/ThemeSwitcher";
 import Browser from "@components/Browser";
 import Footer from "@components/Footer";
 import { AnimatedBg, Transition } from "scroll-background";
 import ResumePage from "./pages/Resume";
+import ParticlesBackground from "@components/ParticlesBackground";
 
 class App extends Component {
   render() {
     return (
       <div className="dev-landing-page">
+        <div
+          style={{
+            position: "absolute",
+            zIndex: "0",
+            width: "100%"
+          }}
+        >
+          <ParticlesBackground />
+        </div>
         <ThemeSwitcher>
           <AnimatedBg>
-            <Browser except firefox>
-              <ParallaxBackground />
-            </Browser>
+            <Browser except firefox />
+            {/* <ParallaxBackground /> */}
 
-            <LandingPage />
+            <LandingPage style={{ zIndex: "1" }} />
+
             <Transition
               height="400px"
               from="#ffffff"
@@ -50,6 +59,7 @@ class App extends Component {
             <Footer />
           </AnimatedBg>
         </ThemeSwitcher>
+        {/* </Particles> */}
       </div>
     );
   }

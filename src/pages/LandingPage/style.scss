@@ -25,6 +25,7 @@
       flex-direction: column;
       justify-content: center;
       text-align: center;
+      align-items: center;
 
       > .intro-name {
         font-family: "Reem Kufi", sans-serif;
@@ -47,6 +48,9 @@
         @include breakpoint-small-down {
           font-size: 1.25rem;
         }
+      }
+      .shima {
+        width: 50%;
       }
     }
 

@@ -16,19 +16,19 @@ const LandingPage = (props, context) => {
 
   return (
     <div className="landing-page">
-      <Nav />
-      <main style={{ color: colorPrimary }}>
-        {/* <BrowserNotes /> */}
-
+      <main style={{ color: colorPrimary, background: "#292929" }}>
+        <BrowserNotes />
+        <br />
+        <br />
         <div className="intro-wrapper">
-          <div className="intro-name">Hi, I'm Shima!</div>
+          {/* <div className="intro-name">Hi, I'm Shima!</div> */}
+          <img src={"/images/shima.png"} className="shima" />
 
           <div className="tagline">
             <Typed
               strings={[
-                "Full Stack Developer",
-                "Ivey Business Student",
-                "Innovator",
+                "Software Engineer",
+                "Business Student",
                 "Aspiring Entrepreneur"
               ]}
               className="tagline"
@@ -38,9 +38,12 @@ const LandingPage = (props, context) => {
             />
           </div>
           <SocialIcons />
+
+          <br />
         </div>
       </main>
-      <ScrollToNext pageSelector=".about-page" />
+      {/* <ScrollToNext pageSelector=".about-page" /> */}
+      <Nav />
     </div>
   );
 };

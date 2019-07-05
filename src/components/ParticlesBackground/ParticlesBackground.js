@@ -17,13 +17,13 @@ const ParticlesBackground = () => {
             }
           },
           color: {
-            value: "#4286f4"
+            value: "#606060"
           },
           shape: {
             type: "circle",
             stroke: {
               width: 0,
-              color: "#4286f4"
+              color: "#606060"
             },
             polygon: {
               nb_sides: 4
@@ -57,7 +57,7 @@ const ParticlesBackground = () => {
           line_linked: {
             enable: true,
             distance: 150,
-            color: "#629bf7",
+            color: "#606060",
             opacity: 0.4,
             width: 1
           },

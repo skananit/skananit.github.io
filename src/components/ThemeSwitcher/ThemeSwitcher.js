@@ -11,10 +11,11 @@ class ThemeSwitcher extends Component {
     this.state = {
       theme: {
         name: "red",
-        colorPrimary: "#3e76d1",
-        colorAlternate: "#FAFAFA",
-        colorHighlight: "#cfeef9",
+        colorPrimary: "white",
+        colorAlternate: "#ffd3d5",
+        colorHighlight: "#ffd3d5",
         textPrimary: "#202121",
+        bgPrimary: "#292929",
         navAlpha: "rgba(250, 250, 250, 0.75)"
       }
       // theme: firstTimeThemes[Math.floor((Math.random() * (firstTimeThemes.length)))]

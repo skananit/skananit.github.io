@@ -10,6 +10,7 @@ import Footer from "@components/Footer";
 import { AnimatedBg, Transition } from "scroll-background";
 import ResumePage from "./pages/Resume";
 import ParticlesBackground from "@components/ParticlesBackground";
+import NavBar from "./components/NavBar";
 
 class App extends Component {
   render() {
@@ -25,39 +26,39 @@ class App extends Component {
           <ParticlesBackground />
         </div>
         <ThemeSwitcher>
-          <AnimatedBg>
-            <Browser except firefox />
-            {/* <ParallaxBackground /> */}
+          {/* <AnimatedBg> */}
+          {/* <Browser except firefox /> */}
+          {/* <ParallaxBackground /> */}
 
-            <LandingPage style={{ zIndex: "1" }} />
-
-            <Transition
+          <LandingPage style={{ zIndex: "1" }} />
+          <NavBar />
+          {/* <Transition
               height="400px"
-              from="#ffffff"
+              from="#f2f2f2"
               to="#eaf4ff"
               position={0.2}
-            />
+            /> */}
 
-            <AboutPage />
-            <Transition
+          <AboutPage />
+          {/* <Transition
               height="400px"
               from="#eaf4ff"
               to="#f2f2f2"
               position={0.2}
-            />
+            /> */}
 
-            <ResumePage />
-            <Transition height="400px" from="#f2f2f2" to="#eaf4ff" />
+          <ResumePage />
+          {/* <Transition height="400px" from="#f2f2f2" to="#eaf4ff" /> */}
 
-            <PortfolioPage />
-            <Transition height="400px" from="#eaf4ff" to="#ffffff" />
+          <PortfolioPage />
+          {/* <Transition height="400px" from="#eaf4ff" to="#ffffff" /> */}
 
-            <SkillPage />
+          <SkillPage />
 
-            <ScrollTop />
+          <ScrollTop />
 
-            <Footer />
-          </AnimatedBg>
+          <Footer />
+          {/* </AnimatedBg> */}
         </ThemeSwitcher>
         {/* </Particles> */}
       </div>

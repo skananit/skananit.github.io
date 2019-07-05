@@ -1,8 +1,9 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
-import { toElement as scrollToElement } from "@utils/scroll";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { toElement as scrollToElement } from '@utils/scroll';
 
-import "./style.scss";
+import './style.scss';
+import SocialIcons from '../SocialIcons/SocialIcons';
 
 class Nav extends Component {
   constructor(props) {
@@ -14,11 +15,11 @@ class Nav extends Component {
   }
 
   componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll);
+    window.addEventListener('scroll', this.handleScroll);
   }
 
   componentWillUnmount() {
-    window.removeEventListener("scroll", this.handleScroll);
+    window.removeEventListener('scroll', this.handleScroll);
   }
 
   handleScroll() {
@@ -43,10 +44,8 @@ class Nav extends Component {
       theme: { colorPrimary, bgPrimary, navAlpha }
     } = this.context;
 
-    const stickyClass = this.state.isSticky ? "sticky" : "";
-    const stickyStyles = this.state.isSticky
-      ? { backgroundColor: navAlpha, color: colorPrimary }
-      : { backgroundColor: bgPrimary, color: colorPrimary };
+    const stickyClass = this.state.isSticky ? 'sticky' : '';
+    const stickyStyles = this.state.isSticky ? { backgroundColor: bgPrimary, color: '#FF6978' } : { backgroundColor: bgPrimary, color: colorPrimary };
     return (
       <nav
         className={stickyClass}
@@ -63,29 +62,17 @@ class Nav extends Component {
           `}
         </style>
         <div className="menu">
-          <div
-            className="menu__item active"
-            onClick={e => this.scrollToPage(".about-page")}
-          >
-            About Me
+          <div className="menu__item active" onClick={e => this.scrollToPage('.about-page')}>
+            About
           </div>
 
-          <div
-            className="menu__item active"
-            onClick={e => this.scrollToPage(".resume-page")}
-          >
+          <div className="menu__item active" onClick={e => this.scrollToPage('.resume-page')}>
             Professional Timeline
           </div>
-          <div
-            className="menu__item"
-            onClick={e => this.scrollToPage(".portfolio-page")}
-          >
+          <div className="menu__item" onClick={e => this.scrollToPage('.portfolio-page')}>
             Portfolio
           </div>
-          <div
-            className="menu__item"
-            onClick={e => this.scrollToPage(".skills-page")}
-          >
+          <div className="menu__item" onClick={e => this.scrollToPage('.skills-page')}>
             Skills & Tools
           </div>
         </div>

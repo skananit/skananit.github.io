@@ -1,16 +1,17 @@
-import React, { Component } from "react";
-import LandingPage from "@pages/LandingPage";
-import AboutPage from "@pages/AboutPage";
-import PortfolioPage from "@pages/PortfolioPage";
-import SkillPage from "@pages/Skills";
-import ScrollTop from "@components/ScrollTop";
-import ThemeSwitcher from "@components/ThemeSwitcher";
-import Browser from "@components/Browser";
-import Footer from "@components/Footer";
-import { AnimatedBg, Transition } from "scroll-background";
-import ResumePage from "./pages/Resume";
-import ParticlesBackground from "@components/ParticlesBackground";
-import NavBar from "./components/NavBar";
+import React, { Component } from 'react';
+import LandingPage from '@pages/LandingPage';
+import AboutPage from '@pages/AboutPage';
+import PortfolioPage from '@pages/PortfolioPage';
+import SkillPage from '@pages/Skills';
+import ScrollTop from '@components/ScrollTop';
+import ThemeSwitcher from '@components/ThemeSwitcher';
+import Browser from '@components/Browser';
+import Footer from '@components/Footer';
+import { AnimatedBg, Transition } from 'scroll-background';
+import ResumePage from './pages/Resume';
+import ParticlesBackground from '@components/ParticlesBackground';
+import NavBar from './components/NavBar';
+import Nav from './components/Nav/Nav';
 
 class App extends Component {
   render() {
@@ -18,9 +19,9 @@ class App extends Component {
       <div className="dev-landing-page">
         <div
           style={{
-            position: "absolute",
-            zIndex: "0",
-            width: "100%"
+            position: 'absolute',
+            zIndex: '0',
+            width: '100%'
           }}
         >
           <ParticlesBackground />
@@ -30,8 +31,9 @@ class App extends Component {
           {/* <Browser except firefox /> */}
           {/* <ParallaxBackground /> */}
 
-          <LandingPage style={{ zIndex: "1" }} />
-          <NavBar />
+          <LandingPage style={{ zIndex: '1' }} />
+
+          {/* <NavBar /> */}
           {/* <Transition
               height="400px"
               from="#f2f2f2"
@@ -40,6 +42,7 @@ class App extends Component {
             /> */}
 
           <AboutPage />
+
           {/* <Transition
               height="400px"
               from="#eaf4ff"
@@ -59,6 +62,7 @@ class App extends Component {
 
           <Footer />
           {/* </AnimatedBg> */}
+          <Nav />
         </ThemeSwitcher>
         {/* </Particles> */}
       </div>

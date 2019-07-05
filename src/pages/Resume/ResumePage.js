@@ -1,13 +1,15 @@
-import React from "react";
-import PropTypes from "prop-types";
-import ResumeItem from "@components/ResumeItem";
-import ScrollToNext from "@components/ScrollToNext";
-import resumeItems from "./resume-items";
-import Nav from "@components/Nav";
-import Timeline from "@components/Timeline";
-import { StyleRoot } from "radium";
+import React from 'react';
+import PropTypes from 'prop-types';
+import ResumeItem from '@components/ResumeItem';
+import ScrollToNext from '@components/ScrollToNext';
+import resumeItems from './resume-items';
+import Nav from '@components/Nav';
+import Timeline from '@components/Timeline';
+import { StyleRoot } from 'radium';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 
-import "./style.scss";
+import './style.scss';
 
 const ResumePage = (props, context) => {
   const {
@@ -18,8 +20,15 @@ const ResumePage = (props, context) => {
     <div className="resume-page">
       <div className="Wrapper">
         <div className="right">
+          {/* <VerticalTimeline>
+            <VerticalTimelineElement className="vertical-timeline-element--work" date="2011 - present" iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+              <h3 className="vertical-timeline-element-title">Creative Director</h3>
+              <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+              <p>Creative Direction, User Experience, Visual Design, Project Management, Team Leading</p>
+            </VerticalTimelineElement>
+          </VerticalTimeline> */}
           <StyleRoot>
-            <Timeline>
+            <Timeline color={'black'} animations={true} lineColor={'#A7A2A9'} activeColor={'#F45B69	'}>
               <div icon="a">
                 <h1>Work 1</h1>
               </div>
@@ -32,11 +41,8 @@ const ResumePage = (props, context) => {
               {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(i => (
                 <div key={i}>
                   <h1>{i}</h1>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-                  sea takimata sanctus est Lorem ipsum dolor sit amet.
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </div>
               ))}
             </Timeline>

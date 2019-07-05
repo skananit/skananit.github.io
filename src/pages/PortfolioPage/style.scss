@@ -1,12 +1,48 @@
-@import "breakpoints";
+@import 'breakpoints';
 
-.portfolio-page {
-  padding-top: 2rem;
-  min-height: 100vh;
+.Wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.Wrapper > div {
+  height: 100%;
+}
+
+.LeftContent3 {
+  background-color: #f7484e;
+  padding: 7%;
+  //height: 100%;
   display: flex;
-  flex: 0 1 auto;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.right {
+  background-color: white;
+  overflow: auto;
+  //height: 100%;
+  float: right;
+  width: 60%;
+  //padding: 7%;
+  /* margin-left: 10px; */
+}
+.cabout {
+  // position: absolute;
+  // top: 50%;
+  // //left: 25%;
+  // width: 30%;
+  width: 100%;
+}
+
+.portfolio-page {
+  // padding-top: 2rem;
+  min-height: 100vh;
+  // display: flex;
+  // flex: 0 1 auto;
+  // flex-direction: column;
+  // justify-content: center;
 
   @include breakpoint-small-down {
     padding-top: 3rem;

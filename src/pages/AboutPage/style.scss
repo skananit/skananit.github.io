@@ -1,4 +1,4 @@
-@import "breakpoints";
+@import 'breakpoints';
 
 .Wrapper {
   position: absolute;
@@ -70,7 +70,7 @@
 
       p {
         font-weight: 300;
-        //padding: 0.5rem 0;
+        padding: 0.5rem 0;
       }
 
       .text-emoji {

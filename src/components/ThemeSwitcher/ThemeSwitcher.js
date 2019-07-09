@@ -13,10 +13,11 @@ class ThemeSwitcher extends Component {
         name: "red",
         colorPrimary: "white",
         colorAlternate: "#ffd3d5",
-        colorHighlight: "#ffd3d5",
-        textPrimary: "#202121",
+        colorHighlight: "#D8E2F4",
+        textPrimary: "white",
         bgPrimary: "#292929",
-        navAlpha: "rgba(250, 250, 250, 0.75)"
+        navAlpha: "rgba(250, 250, 250, 0.75)",
+        social: "#292929"
       }
       // theme: firstTimeThemes[Math.floor((Math.random() * (firstTimeThemes.length)))]
     };

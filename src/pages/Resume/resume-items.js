@@ -2,38 +2,73 @@ import React from "react";
 
 export default [
   {
-    name: "fintech",
+    name: "scotia",
     render: (
       <div className="resume-item">
         {/* <div className="resume-item__company">IVEY FINTECH</div> */}
         <div className="resume-item__pic">
-          <a href={"https://www.ivey.uwo.ca/scotiabank-digital-banking-lab/"}>
-            <img className="logos" src={"/images/fintech.png"} />
+          <a href={"https://www.scotiabank.com/gls/en/index.html#about"}>
+            <img className="logos" src={"/images/scotiabank.png"} />
           </a>
         </div>
         <div className="resume-item__position">
           {/* <i className="fas fa-briefcase" /> {"  "} */}
-          Product Lead, Innovations Portfolio
+          Product Manager & Software Engineer
         </div>
         <div className="resume-item__location">
           <i className="fas fa-map-marker-alt" /> {"  "}
-          London, ON
+          Waterloo, ON
         </div>
         <div className="resume-item__desc">
-          Ivey FinTech aims to drive thought leadership on the future of
-          financial services innovation at Ivey and beyond. I lead a
-          cross-functional team that is building, prototyping, and testing a
-          digital financial product for university students. I am responsible
-          for guiding the success of the product by assessing its market
-          traction, defining its features, technical requirements and
-          specifications. My goal is to increase students' exposure to digital
-          disruption and ultimately support the development of Canada’s FinTech
-          ecosystem.
+          Scotiabank’s Digital Banking Unit in Waterloo consisted of a small,
+          yet tight-knit team of user experience designers and engineers. I am
+          currently completing my second 16-week internship on a Capital Markets
+          Analytics Project. My role involves engineering the frontend
+          application for the highest priority Artificial Intelligence project
+          in Scotiabank’s Global Banking and Markets in a team of five
+          engineers; the project is expected to generate $9-12M in revenues
+          annually. As the Product Manager, I manage the product roadmap by
+          synthesizing stakeholders’ expectations, including managing directors,
+          executives, and end-users in Debt and Equity Capital Markets to
+          prioritize product features and create a concrete product vision.
         </div>
-        <div className="resume-item__date">September 2018 - Present </div>
+        <div className="resume-item__date">May 2019 - August 2019 </div>
       </div>
     )
   },
+  // {
+  //   name: "fintech",
+  //   render: (
+  //     <div className="resume-item">
+  //       {/* <div className="resume-item__company">IVEY FINTECH</div> */}
+  //       <div className="resume-item__pic">
+  //         <a href={"https://www.ivey.uwo.ca/scotiabank-digital-banking-lab/"}>
+  //           <img className="logos" src={"/images/fintech.png"} />
+  //         </a>
+  //       </div>
+  //       <div className="resume-item__position">
+  //         {/* <i className="fas fa-briefcase" /> {"  "} */}
+  //         Product Lead, Innovations Portfolio
+  //       </div>
+  //       <div className="resume-item__location">
+  //         <i className="fas fa-map-marker-alt" /> {"  "}
+  //         London, ON
+  //       </div>
+  //       <div className="resume-item__desc">
+  //         Ivey FinTech aims to drive thought leadership on the future of
+  //         financial services innovation at Ivey and beyond. I lead a
+  //         cross-functional team that is building, prototyping, and testing a
+  //         digital financial product for university students. I am responsible
+  //         for guiding the success of the product by assessing its market
+  //         traction, defining its features, technical requirements and
+  //         specifications. My goal is to increase students' exposure to digital
+  //         disruption and ultimately support the development of Canada’s FinTech
+  //         ecosystem.
+  //       </div>
+  //       <div className="resume-item__date">September 2018 - Present </div>
+  //     </div>
+  //   )
+  // },
   {
     name: "communitech",
     render: (
@@ -127,7 +162,7 @@ export default [
         </div>
         <div className="resume-item__position">
           {/* <i className="fas fa-briefcase" /> {"  "} */}
-          Software Engineer Intern
+          Software Engineer
         </div>
         <div className="resume-item__location">
           <i className="fas fa-map-marker-alt" /> {"  "}

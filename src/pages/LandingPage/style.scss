@@ -1,67 +1,61 @@
 @import "breakpoints";
 
-.landing-page {
-  min-height: 100vh;
-  display: flex;
-  flex: 0 1 auto;
-  flex-direction: column;
-  justify-content: center;
+.container {
+  position: relative;
+}
+.container img {
+  display: block;
+  width: 100%;
+}
 
-  main {
-    display: flex;
-    flex: 1 0 auto;
-    flex-direction: column;
-    justify-content: center;
-    padding: 3.25rem 1.5rem 1rem;
-    text-align: center;
+[class*="counter"] span {
+  position: absolute;
+}
 
-    @include breakpoint-small-down {
-      padding: 4.25rem 1.5rem 1rem;
-    }
+.main-title {
+  position: absolute;
+  margin: 1rem 0;
+  top: 23%;
+  left: 33%;
+  font-family: "Reem Kufi", sans-serif;
+  width: 100%;
+  font-size: 5vw;
+  font-weight: 500;
+  line-height: 4rem;
+}
 
-    .intro-wrapper {
-      flex: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      align-items: center;
+.tagline {
+  position: absolute;
+  top: 35%;
+  left: 38%;
+  font-weight: 100;
+  font-size: 2vw;
+  width: 100%;
+  margin: 1.5rem 0;
 
-      > .intro-name {
-        font-family: "Reem Kufi", sans-serif;
-        font-size: 4rem;
-        font-weight: 500;
-        line-height: 4rem;
-        padding-bottom: 1rem;
-
-        @include breakpoint-small-down {
-          font-size: 3rem;
-          line-height: 3.5rem;
-        }
-      }
-
-      > .tagline {
-        font-size: 1.375rem;
-        margin: 1.5rem 0;
-        font-weight: 300;
-
-        @include breakpoint-small-down {
-          font-size: 1.25rem;
-        }
-      }
-      .shima {
-        width: 50%;
-      }
-    }
-
-    .browser-notes {
-      font-size: 0.75rem;
-
-      span {
-        border-width: 1px;
-        border-style: solid;
-        padding: 0.125rem 0.5rem;
-      }
-    }
+  @include breakpoint-medium-down {
+    width: 30%;
+    left: 39%;
   }
+}
+
+.icons {
+  position: absolute;
+  top: 41%;
+  left: 37%;
+  margin: 1rem 0;
+
+  @include breakpoint-medium-down {
+    left: 34%;
+  }
+}
+
+.scroll {
+  position: absolute;
+  top: 81%;
+  left: 47%;
+}
+
+.landing-page {
+  background-color: white;
 }

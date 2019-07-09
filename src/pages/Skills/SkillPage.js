@@ -22,8 +22,8 @@ const SkillsPage = (props, context) => {
         `}
       </style>
       <div className="content-grid">
-        <h1 style={{ color: colorPrimary }}>
-          <i class="fas fa-cogs" /> SKILLS & TOOLS
+        <h1 style={{ color: "black" }}>
+          <i class="fas fa-cogs" /> Skills & Tools
         </h1>
         <div className="skills-wrapper">
           <div className="skills-content" style={{ color: "#000000" }}>

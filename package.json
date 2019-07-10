@@ -107,6 +107,7 @@
     "react-typing-animation": "^1.4.0",
     "react-vertical-timeline-component": "^2.4.0",
     "reactstrap": "^6.3.1",
-    "scroll-background": "^1.0.5"
+    "scroll-background": "^1.0.5",
+    "vertical-timeline-component-react": "^1.1.2"
   }
 }

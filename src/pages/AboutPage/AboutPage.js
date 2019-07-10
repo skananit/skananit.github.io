@@ -21,7 +21,7 @@ const AboutPage = (props, context) => {
         `}
       </style>
       <div className="content-grid">
-        <h1 style={{ color: "black" }}>About Me</h1>
+        <h1 style={{ color: "black" }}>About</h1>
         <div className="about-wrapper">
           <div className="about-content" style={{ color: "black" }}>
             <p>

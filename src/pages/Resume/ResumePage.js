@@ -1,10 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ResumeItem from "@components/ResumeItem";
 import ScrollToNext from "@components/ScrollToNext";
-import resumeItems from "./resume-items";
 
 import "./style.scss";
+import Timeline from "@components/Timeline";
 
 const ResumePage = (props, context) => {
   const {
@@ -15,25 +14,7 @@ const ResumePage = (props, context) => {
     <div className="resume-page">
       <div className="content-grid">
         <h1 style={{ color: "black" }}>Professional Timeline</h1>
-        <div className="resume-wrapper">
-          <style jsx="true">
-            {`
-              .resume-item {
-                background-color: ${"#ffffff"};
-                color: ${textAlternate};
-              }
-              .resume-item a {
-                color: ${textAlternate};
-              }
-              .resume-item__links a:hover {
-                border-bottom: 2px solid ${colorAlternate};
-              }
-            `}
-          </style>
-          {resumeItems.map((item, i) => (
-            <ResumeItem render={item.render} key={i} />
-          ))}
-        </div>
+        <Timeline />
       </div>
       <br />
       <ScrollToNext pageSelector=".portfolio-page" />

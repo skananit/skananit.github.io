@@ -15,21 +15,31 @@ const PortfolioPage = (props, context) => {
     <div className="portfolio-page">
       <div className="content-grid">
         <h1 style={{ color: "black" }}>Portfolio</h1>
-        <p>
+        {/* <p>
           <i>a selection of my recent projects that I'm not too ashamed of</i>
-        </p>
+        </p> */}
         <div className="portfolio-wrapper">
           <style jsx="true">
             {`
               .portfolio-item {
-                background-color: ${"#2964c4"};
-                color: ${"#ffffff"};
+                background-color: ${"white"};
+                color: ${"black"};
+              }
+              .portfolio-item__title {
+                color: ${"black"};
+              }
+              .portfolio-item__icon {
+                color: ${"black"};
+              }
+              .portfolio-item__desc {
+                color: ${"black"};
               }
               .portfolio-item a {
-                color: ${"#ffffff"};
+                color: ${"black"};
               }
               .portfolio-item__links a:hover {
-                border-bottom: 2px solid ${"white"};
+                border-bottom: 2px solid ${"black"};
+                color: ${"black"};
               }
             `}
           </style>
@@ -39,7 +49,7 @@ const PortfolioPage = (props, context) => {
         </div>
       </div>
       <br />
-      <ScrollToNext pageSelector=".skills-page" />
+      {/* <ScrollToNext pageSelector=".skills-page" /> */}
     </div>
   );
 };

@@ -57,7 +57,7 @@ class App extends Component {
           <PortfolioPage />
           {/* <Transition height="400px" from="#eaf4ff" to="#ffffff" /> */}
 
-          <SkillPage />
+          {/* <SkillPage /> */}
 
           <ScrollTop />
 

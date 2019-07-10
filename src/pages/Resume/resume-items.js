@@ -2,7 +2,16 @@ import React from "react";
 
 export default [
   {
-    name: "scotia",
+    role: "Product Manager & Software Engineer",
+    logo: "/images/scotiabank.png",
+    location: "Waterloo, ON",
+    date: "May 2019 - August 2019 ",
+    description:
+      "Scotiabank’s Digital Banking Unit in Waterloo consisted of a small, yet tight-knit team of user experience designers and engineers. I am currently completing my second 16-week internship on a Capital Markets Analytics Project. My role involves engineering the frontend application for the highest priority Artificial Intelligence project in Scotiabank’s Global Banking and Markets in a team of five engineers; the project is expected to generate $9-12M in revenues annually. As the Product Manager, I manage the product roadmap by synthesizing stakeholders’ expectations, including managing directors, executives, and end-users in Debt and Equity Capital Markets to prioritize product features and create a concrete product vision.",
+    category: {
+      tag: "work",
+      color: "#018f69"
+    },
     render: (
       <div className="resume-item">
         {/* <div className="resume-item__company">IVEY FINTECH</div> */}

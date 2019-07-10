@@ -17,10 +17,12 @@
     padding: 1rem 0;
     font-size: 2rem;
     font-family: "Reem Kufi", sans-serif;
+    color: black;
   }
   p {
     font-weight: 260;
     font-size: 0.8rem;
+    color: black;
   }
 
   .content-grid {
@@ -36,6 +38,7 @@
       font-weight: 300;
       font-size: 0.5rem;
       padding: 0.5rem 0;
+      color: black;
     }
 
     @include breakpoint-small-down {

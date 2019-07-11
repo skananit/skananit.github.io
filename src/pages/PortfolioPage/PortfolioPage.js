@@ -1,10 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
-import PortfolioItem from "@components/PortfolioItem";
-import ScrollToNext from "@components/ScrollToNext";
-import portfolioItems from "./portfolio-items";
+import React from 'react';
+import PropTypes from 'prop-types';
+import PortfolioItem from '@components/PortfolioItem';
+import ScrollToNext from '@components/ScrollToNext';
+import portfolioItems from './portfolio-items';
 
-import "./style.scss";
+import './style.scss';
 
 const PortfolioPage = (props, context) => {
   const {
@@ -14,7 +14,7 @@ const PortfolioPage = (props, context) => {
   return (
     <div className="portfolio-page">
       <div className="content-grid">
-        <h1 style={{ color: "black" }}>Portfolio</h1>
+        <h1 style={{ color: 'black' }}>Portfolio</h1>
         {/* <p>
           <i>a selection of my recent projects that I'm not too ashamed of</i>
         </p> */}
@@ -22,24 +22,24 @@ const PortfolioPage = (props, context) => {
           <style jsx="true">
             {`
               .portfolio-item {
-                background-color: ${"white"};
-                color: ${"black"};
+                background-color: ${'white'};
+                color: ${'black'};
               }
               .portfolio-item__title {
-                color: ${"black"};
+                color: ${'black'};
               }
               .portfolio-item__icon {
-                color: ${"black"};
+                color: ${'black'};
               }
               .portfolio-item__desc {
-                color: ${"black"};
+                color: ${'black'};
               }
               .portfolio-item a {
-                color: ${"black"};
+                color: ${'black'};
               }
               .portfolio-item__links a:hover {
-                border-bottom: 2px solid ${"black"};
-                color: ${"black"};
+                border-bottom: 2px solid ${'black'};
+                color: ${'black'};
               }
             `}
           </style>
@@ -48,8 +48,6 @@ const PortfolioPage = (props, context) => {
           ))}
         </div>
       </div>
-      <br />
-      {/* <ScrollToNext pageSelector=".skills-page" /> */}
     </div>
   );
 };

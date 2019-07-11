@@ -7,10 +7,10 @@
 
 .timeline-container::after {
   background-color: #757575;
-  content: "";
+  content: '';
   position: absolute;
   left: calc(50% - 2px);
-  width: 4px;
+  width: 2px;
   height: 100%;
 }
 .timeline-item {
@@ -29,7 +29,7 @@
   padding-right: 0;
 }
 .timeline-item-content {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 2px -3px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   background-color: #fff;
   display: flex;
@@ -37,9 +37,12 @@
   align-items: flex-end;
   padding: 15px;
   position: relative;
-  width: 400px;
-  max-width: 70%;
+  width: 100%;
+  // max-width: 70%;
   text-align: right;
+}
+.timeline-item-content:hover {
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 .timeline-item-content .logo {
@@ -49,19 +52,19 @@
   flex-direction: row;
   align-self: flex-start;
   justify-content: flex-start;
-  width: 10%;
+  width: 5%;
 }
 
 .timeline-item:nth-child(odd) .timeline-item-content .logo {
   align-self: flex-end;
   justify-content: flex-end;
-  width: 40%;
+  width: 5%;
 }
 
 .timeline-item-content::after {
-  content: " ";
+  content: ' ';
   background-color: #fff;
-  box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.14);
   position: absolute;
   right: -7.5px;
   top: calc(50% - 7.5px);
@@ -78,7 +81,7 @@
 .timeline-item:nth-child(odd) .timeline-item-content::after {
   right: auto;
   left: -7.5px;
-  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.14);
 }
 
 .timeline-item-content .tag {
@@ -103,7 +106,8 @@
   color: rgb(105, 105, 105);
   font-size: 14px;
   //   font-weight: bold;
-  padding-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .timeline-item-content p {
@@ -122,13 +126,13 @@
 }
 
 .timeline-item-content a::after {
-  content: " ►";
+  content: ' ►';
   font-size: 12px;
 }
 
 .timeline-item-content .circle {
   background-color: #fff;
-  border: 3px solid #292929;
+  border: 2px solid #757575;
   border-radius: 50%;
   position: absolute;
   top: calc(50% - 10px);

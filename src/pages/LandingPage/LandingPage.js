@@ -1,10 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
-import SocialIcons from "@components/SocialIcons";
-import ScrollToNext from "@components/ScrollToNext";
-import Typed from "react-typed";
+import React from 'react';
+import PropTypes from 'prop-types';
+import SocialIcons from '@components/SocialIcons';
+import ScrollToNext from '@components/ScrollToNext';
+import Typed from 'react-typed';
 
-import "./style.scss";
+import './style.scss';
 
 const LandingPage = (props, context) => {
   const {
@@ -16,18 +16,9 @@ const LandingPage = (props, context) => {
       <div className="container">
         <img src="/images/pexels.jpeg" />
         <div className="counter">
+          <Typed strings={["Hey, I'm Shima!"]} className="main-title" typeSpeed={60} showCursor={false} />
           <Typed
-            strings={["Hey, I'm Shima!"]}
-            className="main-title"
-            typeSpeed={60}
-            showCursor={false}
-          />
-          <Typed
-            strings={[
-              "a software engineer . . .",
-              "a business student . . . ",
-              "and aspiring entrepreneur"
-            ]}
+            strings={['a software engineer . . .', 'a business student . . . ', 'and aspiring entrepreneur']}
             className="tagline"
             typeSpeed={40}
             backSpeed={60}

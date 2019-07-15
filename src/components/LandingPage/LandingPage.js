@@ -1,0 +1,40 @@
+import React from "react";
+import Typed from "react-typed";
+import SocialIcons from "../SocialIcons/SocialIcons";
+import "./styles.css";
+
+class LandingPage extends React.Component {
+  render() {
+    return (
+      <div className="landing-page">
+        <img src="/images/pexels.jpeg" alt="" />
+        <div className="counter">
+          <Typed
+            strings={["Hey, I'm Shima!"]}
+            className="main-title"
+            typeSpeed={60}
+            showCursor={false}
+          />
+          <Typed
+            strings={[
+              "a software engineer . . .",
+              "a business student . . . ",
+              "and aspiring entrepreneur"
+            ]}
+            className="tagline"
+            typeSpeed={40}
+            backSpeed={60}
+            startDelay={1000}
+            loop
+            showCursor={false}
+          />
+          <span className="social">
+            <SocialIcons />
+          </span>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default LandingPage;

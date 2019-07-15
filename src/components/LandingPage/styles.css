@@ -1,0 +1,39 @@
+.landing-page {
+  position: relative;
+  overflow: hidden;
+}
+.landing-page img {
+  display: block;
+  width: 100%;
+}
+[class*="counter"] span {
+  position: absolute;
+  width: 100%;
+}
+.main-title {
+  position: absolute;
+  margin: 1rem 0;
+  top: 23%;
+  left: 33%;
+  font-family: "Dancing Script", cursive;
+  width: 100%;
+  font-size: 5.2vw;
+  font-weight: 500;
+  line-height: 4rem;
+}
+.tagline {
+  position: absolute;
+  top: 35%;
+  left: 38%;
+  font-weight: 100;
+  font-size: 1.7vw;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-family: "Raleway", sans-serif;
+}
+.social {
+  position: absolute;
+  top: 40%;
+  left: 37%;
+  margin: 1rem 0;
+}

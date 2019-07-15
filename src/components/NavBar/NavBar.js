@@ -1,44 +1,29 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { toElement as scrollToElement } from '@utils/scroll';
+import React from "react";
+import "./styles.css";
 
-import './styles.scss';
-
-class Nav extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {};
-
-    this.handleScroll = this.handleScroll.bind(this);
-  }
-
-  handleScroll() {
-    this.setState({ scroll: window.scrollY });
-  }
-
-  componentDidMount() {
-    const el = document.querySelector('nav');
-    this.setState({ top: el.offsetTop, height: el.offsetHeight });
-    window.addEventListener('scroll', this.handleScroll);
-  }
-
-  componentDidUpdate() {
-    this.state.scroll > this.state.top ? (document.body.style.paddingTop = `${this.state.height}px`) : (document.body.style.paddingTop = 0);
-  }
-
+class Navbar extends React.Component {
   render() {
     return (
-      <nav className={this.state.scroll > this.state.top ? 'fixed-nav' : 'fixed-nav'}>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Careers</li>
-          <li>Contact</li>
-          <li>Help</li>
-        </ul>
+      <nav
+        ref={elem => {
+          this.nav = elem;
+        }}
+      >
+        <style jsx="true">
+          {`
+            .menu__item:hover {
+              border-bottom: 2px solid;
+            }
+          `}
+        </style>
+        <div className="menu">
+          <div className="menu__item active">About</div>
+          <div className="menu__item">Portfolio</div>
+          <div className="menu__item active">Timeline</div>
+        </div>
       </nav>
     );
   }
 }
-export default Nav;
+
+export default Navbar;

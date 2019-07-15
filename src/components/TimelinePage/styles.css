@@ -1,0 +1,29 @@
+.timeline-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.timeline-container {
+  width: 40%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, white, lightgray);
+}
+
+.timeline-content {
+  width: 60%;
+}
+
+h1 {
+  font-size: 6vw;
+}
+
+.logo {
+  width: 50%;
+}

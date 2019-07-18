@@ -16,7 +16,7 @@ export default [
     description: "Visualize audio data in real time",
     code: "https://github.com/skananit/audio-visualizer",
     icons: [faReact, faJs],
-    background: "/images/sound.jpeg"
+    background: "/images/audio-visualizer.jpeg"
   },
   {
     project: "Self Start, Body Smart",
@@ -24,7 +24,7 @@ export default [
       "Patient management software for a local physiotherapist in London, Ontario",
     code: "https://www.youtube.com/watch?v=nUiOFurz1N0",
     icons: [faEmber, faJs, faNode],
-    background: "/images/self.jpeg"
+    background: "/images/self-start.jpg"
   },
   {
     project: "Geolocation & Geofencing",
@@ -32,15 +32,15 @@ export default [
       "Location features used hand in hand to either restrict users from an app's features or reward them",
     code: "https://github.com/skananit/",
     icons: [faReact, faJs, faNode, faGoogle],
-    background: "/images/map.jpg"
+    background: "/images/geo.png"
   },
   {
-    project: "Chatroom Application",
+    project: "Chat App",
     description:
       "Multithreaded client/server chatroom application allows multiple users to chat in one room",
     code: "https://github.com/skananit/chit-chat-app",
     icons: [faJava],
-    background: "/images/chat3.jpeg"
+    background: "/images/chat-app.jpg"
   },
   {
     project: "Portfolio Website",
@@ -48,7 +48,7 @@ export default [
       "Simple portfolio website hosted on GitHub Pages (Demoed right here!)",
     code: "https://github.com/skananit/skananit.github.io",
     icons: [faReact, faJs],
-    background: "/images/pexels2.jpeg"
+    background: "/images/portfolio.jpg"
   },
 
   {
@@ -57,6 +57,6 @@ export default [
       " Database management tool to enhance blood donors’ donation experience",
     code: "https://github.com/skananit/blood-donation-management-system",
     icons: [faReact, faJs, faAngular],
-    background: "/images/blood.jpeg"
+    background: "/images/blood-donation.jpg"
   }
 ];

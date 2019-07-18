@@ -21,6 +21,18 @@
   font-weight: 500;
   line-height: 4rem;
 }
+@media (min-width: 1200px) {
+  .main-title {
+    padding-top: 1rem;
+  }
+}
+@media (min-width: 2000px) {
+  .main-title {
+    padding-top: 3rem;
+    color: red;
+  }
+}
+
 .tagline {
   position: absolute;
   top: 35%;

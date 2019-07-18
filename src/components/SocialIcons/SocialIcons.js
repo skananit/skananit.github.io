@@ -2,13 +2,13 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
-  faLinkedin,
-  faGithubSquare,
-  faMedium
+  faLinkedinIn,
+  faGithub,
+  faMediumM
 } from "@fortawesome/free-brands-svg-icons";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { faFile } from "@fortawesome/free-regular-svg-icons";
 import "./styles.css";
-library.add(faLinkedin, faGithubSquare, faMedium, faFilePdf);
+library.add(faLinkedinIn, faGithub, faMediumM, faFile);
 
 class SocialIcons extends React.Component {
   render() {
@@ -19,21 +19,21 @@ class SocialIcons extends React.Component {
           rel="noopener noreferrer"
           href="https://github.com/skananit"
         >
-          <FontAwesomeIcon icon={faGithubSquare} className="icon" />
+          <FontAwesomeIcon icon={faGithub} className="single-icon" />
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/shimakanani/"
         >
-          <FontAwesomeIcon icon={faLinkedin} className="icon" />
+          <FontAwesomeIcon icon={faLinkedinIn} className="single-icon" />
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://medium.com/@shima.kanani.t"
         >
-          <FontAwesomeIcon icon={faMedium} className="icon" />
+          <FontAwesomeIcon icon={faMediumM} className="single-icon" />
         </a>
         <a
           target="_blank"
@@ -41,9 +41,9 @@ class SocialIcons extends React.Component {
           href="https://drive.google.com/file/d/16aFQnEs4ZgQiSFPynXP3tkbdFJLWiWhQ/view?usp=sharing"
         >
           <FontAwesomeIcon
-            icon={faFilePdf}
-            transform="shrink-2"
-            className="icon"
+            icon={faFile}
+            transform="shrink-3"
+            className="single-icon"
           />
         </a>
       </div>

@@ -24,7 +24,7 @@ class LandingPage extends React.Component {
             className="tagline"
             typeSpeed={40}
             backSpeed={60}
-            startDelay={1000}
+            startDelay={1700}
             loop
             showCursor={false}
           />

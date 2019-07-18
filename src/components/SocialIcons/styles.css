@@ -1,10 +1,10 @@
 .social-icons {
   padding: 0.5vw 0;
-  font-size: 4vw;
 }
-.icon {
+.single-icon {
   color: black;
-  margin: 1vw;
+  margin: 0.7vw;
+  font-size: 4vw;
 }
 a {
   display: inline-block;

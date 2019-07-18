@@ -12,26 +12,29 @@ class PortfolioPage extends React.Component {
         </div>
         <div className="portfolio-content">
           {portfolioData.map((data, idx) => (
-            <a
-              className="portfolio-item"
-              key={idx}
-              style={{
-                backgroundImage: "url(" + data.background + ")"
-              }}
-              href={data.code}
-            >
-              <h3 style={{ backgroundColor: "white" }}>{data.project}</h3>
+            <div className="image-container">
+              <div
+                className="portfolio-item"
+                key={idx}
+                style={{
+                  backgroundImage: "url(" + data.background + ")"
+                }}
+                href={data.code}
+              >
+                <h3
+                  style={{ color: "black", fontWeight: "900", fontSize: "3vw" }}
+                >
+                  {data.project}
+                </h3>
+                <div className="shutter-out-horizontal">MORE</div>
 
-              <div className="icon-row" style={{ backgroundColor: "white" }}>
-                {data.icons.map((icons, idx) => (
-                  <FontAwesomeIcon icon={icons} key={idx} className="icon" />
-                ))}
+                <div className="icon-row">
+                  {data.icons.map((icons, idx) => (
+                    <FontAwesomeIcon icon={icons} key={idx} className="icon" />
+                  ))}
+                </div>
               </div>
-
-              <p style={{ textAlign: "center", backgroundColor: "white" }}>
-                {data.description}
-              </p>
-            </a>
+            </div>
           ))}
         </div>
       </div>

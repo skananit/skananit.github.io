@@ -19,20 +19,17 @@ class PortfolioPage extends React.Component {
                 style={{
                   backgroundImage: "url(" + data.background + ")"
                 }}
-                href={data.code}
+                // href={data.code}
               >
-                <h3
-                  style={{ color: "black", fontWeight: "900", fontSize: "3vw" }}
-                >
-                  {data.project}
-                </h3>
-                <div className="shutter-out-horizontal">MORE</div>
-
-                <div className="icon-row">
+                <div className="title-box">
+                  <h3 className="project-title">{data.project}</h3>
+                  <button className="shutter-out-horizontal">Learn More</button>
+                </div>
+                {/* <div className="icon-row">
                   {data.icons.map((icons, idx) => (
                     <FontAwesomeIcon icon={icons} key={idx} className="icon" />
                   ))}
-                </div>
+                </div> */}
               </div>
             </div>
           ))}

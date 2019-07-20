@@ -32,7 +32,7 @@ export default [
       "Location features used hand in hand to either restrict users from an app's features or reward them",
     code: "https://github.com/skananit/",
     icons: [faReact, faJs, faNode, faGoogle],
-    background: "/images/geo.png"
+    background: "/images/goe.png"
   },
   {
     project: "Chat App",
@@ -48,7 +48,7 @@ export default [
       "Simple portfolio website hosted on GitHub Pages (Demoed right here!)",
     code: "https://github.com/skananit/skananit.github.io",
     icons: [faReact, faJs],
-    background: "/images/portfolio.jpg"
+    background: "/images/portfolio.png"
   },
 
   {
@@ -57,6 +57,6 @@ export default [
       " Database management tool to enhance blood donors’ donation experience",
     code: "https://github.com/skananit/blood-donation-management-system",
     icons: [faReact, faJs, faAngular],
-    background: "/images/blood-donation.jpg"
+    background: "/images/blood-donation.png"
   }
 ];

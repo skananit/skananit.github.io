@@ -1,0 +1,49 @@
+.contact-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-container {
+  width: 40%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #292929;
+}
+
+.contact-content {
+  width: 60%;
+}
+.contact-details {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: center;
+}
+.email {
+  margin-top: 20%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 1vw;
+}
+h1 {
+  font-size: 6vw;
+}
+
+.logo {
+  width: 50%;
+}
+.headshot {
+  width: 20%;
+  height: 30%;
+  margin-right: 3%;
+}

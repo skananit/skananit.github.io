@@ -6,7 +6,6 @@ const PortfolioItem = ({
   idx,
   background,
   project,
-  icons,
   description,
   link,
   linkIcon,

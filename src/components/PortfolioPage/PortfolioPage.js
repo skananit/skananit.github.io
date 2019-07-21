@@ -1,7 +1,6 @@
 import React from "react";
 import portfolioData from "./portfolio-items";
 import "./styles.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PortfolioItem from "./PortfolioItem";
 
 class PortfolioPage extends React.Component {

@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SocialIcons from "../SocialIcons/SocialIcons";
 
 class ContactPage extends React.Component {
@@ -20,7 +19,7 @@ class ContactPage extends React.Component {
             </p>
 
             <div className="email">
-              <img src="/images/headshot.png" className="headshot" />
+              <img src="/images/headshot.png" className="headshot" alt="" />
 
               <div className="email-details">
                 <h1 style={{ fontSize: "2vw" }}> Shima Kananitodashki</h1>

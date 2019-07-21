@@ -69,7 +69,7 @@ const PortfolioItem = ({
                   display: "inline"
                 }}
               >
-                View {linkLabel}
+                View {linkLabel}:
               </p>
               <a href={link} target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={linkIcon} className="icon" />

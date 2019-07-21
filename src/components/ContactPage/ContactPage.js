@@ -20,7 +20,6 @@ class ContactPage extends React.Component {
 
             <div className="email">
               <img src="/images/headshot.png" className="headshot" alt="" />
-
               <div className="email-details">
                 <h1 style={{ fontSize: "25px" }}> Shima Kananitodashki</h1>
                 <p>shima.kanani.t@gmail.com</p>

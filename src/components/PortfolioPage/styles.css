@@ -16,17 +16,34 @@
   background-image: linear-gradient(to top, white, lightgray);
 }
 
+@media (max-width: 600px) {
+  .portfolio-container {
+    width: 100vw;
+    height: 10vh;
+    z-index: 1;
+  }
+  .portfolio-content {
+    width: 100vw;
+  }
+  .portfolio-page {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .portfolio-item {
+    width: 100vw;
+  }
+  .image-container {
+    width: 100vw;
+  }
+}
+
 .portfolio-content {
   width: 60%;
 }
 
-h1 {
-  font-size: 6vw;
-  font-weight: 100;
-}
-
 h4 {
-  font-size: 1vw;
+  font-size: 15px;
   font-weight: 900;
   padding: 0%;
   margin: 0%;
@@ -83,7 +100,7 @@ h4 {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 1vw;
+  font-size: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 100;
   text-align: center;
@@ -115,7 +132,7 @@ h4 {
 
 .title-box {
   width: 60%;
-  padding: 2%;
+  padding: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -127,11 +144,11 @@ h4 {
 .project-title {
   color: black;
   font-weight: 100;
-  font-size: 2vw;
   padding: 0%;
   margin: 0%;
   text-align: center;
   margin-bottom: 2%;
+  width: 60%;
 }
 .description-box {
   width: 100%;
@@ -145,7 +162,7 @@ h4 {
   -ms-animation: fadein 4s; /* Internet Explorer */
   -o-animation: fadein 4s; /* Opera < 12.1 */
   animation: fadein 4s;
-  padding: 2%;
+  padding: 5%;
 }
 
 @keyframes fadein {

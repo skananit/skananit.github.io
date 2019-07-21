@@ -19,14 +19,12 @@ class TimelinePage extends React.Component {
                 dateInnerStyle={{
                   background: "gray",
                   fontFamily: "Raleway, sans-serif",
-                  fontWeight: "100",
-                  fontSize: "1vw"
+                  fontWeight: "100"
                 }}
               >
                 <img src={data.logo} className="logo" alt="" />
-                <h3 style={{ fontSize: "1.3vw" }}>{data.role}</h3>
-                <p style={{ fontSize: "1.1vw" }}>{data.description}</p>
-                {/* <a src={data.href}>Website</a> */}
+                <h3 style={{ fontSize: "20px" }}>{data.role}</h3>
+                <p>{data.description}</p>
               </TimelineItem>
             ))}
           </Timeline>

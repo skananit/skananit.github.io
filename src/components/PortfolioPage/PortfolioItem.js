@@ -38,8 +38,6 @@ const PortfolioItem = ({
             <h3 className="project-title">{project}</h3>
             <p
               style={{
-                fontSize: "1vw",
-                fontWeight: "100",
                 textAlign: "center",
                 width: "80%"
               }}
@@ -52,8 +50,6 @@ const PortfolioItem = ({
                 <div key={idx} className="technology-description">
                   <p
                     style={{
-                      fontSize: "1vw",
-                      fontWeight: "100",
                       textAlign: "center"
                     }}
                   >
@@ -67,7 +63,6 @@ const PortfolioItem = ({
             <div className="code">
               <p
                 style={{
-                  fontSize: "1vw",
                   fontWeight: "900",
                   textAlign: "center",
                   marginRight: "0.5%",

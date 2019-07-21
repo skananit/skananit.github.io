@@ -12,8 +12,8 @@ class ContactPage extends React.Component {
 
         <div className="contact-content">
           <div className="contact-details">
-            <h3 style={{ fontSize: "2vw" }}> Let's connect,</h3>
-            <p style={{ fontSize: "1vw" }}>
+            <h3 style={{ fontSize: "20px" }}> Let's connect,</h3>
+            <p>
               I love exchanging stories with other product managers, developers,
               designers, and students. Feel free to contact me on Linkedin!
             </p>
@@ -22,7 +22,7 @@ class ContactPage extends React.Component {
               <img src="/images/headshot.png" className="headshot" alt="" />
 
               <div className="email-details">
-                <h1 style={{ fontSize: "2vw" }}> Shima Kananitodashki</h1>
+                <h1 style={{ fontSize: "25px" }}> Shima Kananitodashki</h1>
                 <p>shima.kanani.t@gmail.com</p>
                 <p>+1 (416) 841 0693</p>
               </div>

@@ -14,14 +14,6 @@ code {
     monospace;
 }
 
-/* .h3 {
-  font-family: "Playfair Display", serif;
-}
-
-.p {
-  font-family: "Raleway", sans-serif;
-  /* font-family: 'Playfair Display', serif; */
-/* } */
 h3 {
   font-family: "Playfair Display", serif;
   font-style: bold;
@@ -30,8 +22,6 @@ h3 {
 p {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
-
-  /* font-family: 'Playfair Display', serif; */
 }
 
 h1 {

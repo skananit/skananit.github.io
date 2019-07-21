@@ -150,7 +150,7 @@ export default [
     company: "girl++",
     logo: "/images/girl.png",
     location: "London, ON",
-    date: "Winter 2016 - Present ",
+    date: "Winter 2016 - Spring 2019 ",
     description:
       "I found the key to succeeding in tech is finding the right community, so I co-founded girl++, a non-profit organization, with a classmate. girl++ aims to empower, educate, and guide females pursuing their post-secondary studies who have an interest in technology. Dedicated to changing the male-dominated culture, we provide girls with female role-models and hands-on experience in all areas of technology. After expanding to Toronto, Ontario this summer, we want to further grow our reach and expand to the rest of Ontario. Hoping to not only interest more girls in technology but empower them to be successful in their careers.",
     category: {
@@ -166,7 +166,7 @@ export default [
     location: "Toronto, ON",
     date: "Summer 2016 ",
     description:
-      "As an IT Analyst at World of Forex, I provided technical support for the company's software used to trade on the Foreign Exchange market. I studied end-user problems and network performance to find the root cause of incidents and researched the required technical actions to improve the user experience. By analyzing user behavior data, I was able to make recommendations that increased user satisfaction by 35%.",
+      "As a technical Analyst at World of Forex, I provided technical support for the company's software used to trade on the Foreign Exchange market. I studied end-user problems and network performance to find the root cause of incidents and researched the required technical actions to improve the user experience. By analyzing user behavior data, I was able to make recommendations that increased user satisfaction by 35%.",
     category: {
       tag: "work",
       color: workColor

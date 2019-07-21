@@ -2,6 +2,7 @@ import React from "react";
 import portfolioData from "./portfolio-items";
 import "./styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import PortfolioItem from "./PortfolioItem";
 
 class PortfolioPage extends React.Component {
   render() {
@@ -12,26 +13,17 @@ class PortfolioPage extends React.Component {
         </div>
         <div className="portfolio-content">
           {portfolioData.map((data, idx) => (
-            <div className="image-container">
-              <div
-                className="portfolio-item"
-                key={idx}
-                style={{
-                  backgroundImage: "url(" + data.background + ")"
-                }}
-                // href={data.code}
-              >
-                <div className="title-box">
-                  <h3 className="project-title">{data.project}</h3>
-                  <button className="shutter-out-horizontal">Learn More</button>
-                </div>
-                {/* <div className="icon-row">
-                  {data.icons.map((icons, idx) => (
-                    <FontAwesomeIcon icon={icons} key={idx} className="icon" />
-                  ))}
-                </div> */}
-              </div>
-            </div>
+            <PortfolioItem
+              idx={idx}
+              background={data.background}
+              project={data.project}
+              description={data.description}
+              link={data.link}
+              linkLabel={data.linkLabel}
+              linkIcon={data.linkIcon}
+              technologies={data.technologies}
+              key={idx}
+            />
           ))}
         </div>
       </div>

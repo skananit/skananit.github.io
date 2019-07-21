@@ -12,12 +12,18 @@ class ContactPage extends React.Component {
 
         <div className="contact-content">
           <div className="contact-details">
-            <h3 style={{ fontSize: "20px" }}> Let's connect,</h3>
-            <p>
-              I love exchanging stories with other product managers, developers,
-              designers, and students. Feel free to contact me on Linkedin!
-            </p>
+            <h3> Let's connect,</h3>
 
+            <p>
+              I'm currently finishing up an internship at Scotiabank and
+              entering my senior year of university studies. I'd love to chat
+              about any opportunities starting in June 2020.
+            </p>
+            <p>
+              I also love exchanging stories with other product managers,
+              developers, designers, and students.
+            </p>
+            <p> Feel free to say hi!</p>
             <div className="email">
               <img src="/images/headshot.png" className="headshot" alt="" />
               <div className="email-details">

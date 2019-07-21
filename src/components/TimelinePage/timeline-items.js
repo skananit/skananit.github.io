@@ -4,7 +4,7 @@ const extraColor = "#9948F7";
 
 export default [
   {
-    role: "Product Manager",
+    role: "Product Manager & Software Engineer",
     company: "Scotiabank",
     logo: "/images/sc.png",
     location: "Waterloo, ON",
@@ -17,20 +17,20 @@ export default [
     },
     href: "https://www.scotiabank.com/gls/en/index.html#about"
   },
-  {
-    role: "Software Engineer",
-    company: "Scotiabank",
-    logo: "/images/sc.png",
-    location: "Waterloo, ON",
-    date: "Summer 2019 ",
-    description:
-      "I am currently completing my second 16-week internship on a Capital Markets Analytics Project at the digital banking unit in Waterloo. My role involves engineering the frontend application for the highest priority Artificial Intelligence project in Scotiabank’s Global Banking and Markets in a team of five engineers; the project is expected to generate $9-12M in revenues annually. As the Product Manager, I manage the product roadmap by synthesizing stakeholders’ expectations, including managing directors, executives, and end-users in Debt and Equity Capital Markets to prioritize product features and create a concrete product vision.",
-    category: {
-      tag: "work",
-      color: workColor
-    },
-    href: "https://www.scotiabank.com/gls/en/index.html#about"
-  },
+  // {
+  //   role: "Software Engineer",
+  //   company: "Scotiabank",
+  //   logo: "/images/sc.png",
+  //   location: "Waterloo, ON",
+  //   date: "Summer 2019 ",
+  //   description:
+  //     "I am currently completing my second 16-week internship on a Capital Markets Analytics Project at the digital banking unit in Waterloo. My role involves engineering the frontend application for the highest priority Artificial Intelligence project in Scotiabank’s Global Banking and Markets in a team of five engineers; the project is expected to generate $9-12M in revenues annually. As the Product Manager, I manage the product roadmap by synthesizing stakeholders’ expectations, including managing directors, executives, and end-users in Debt and Equity Capital Markets to prioritize product features and create a concrete product vision.",
+  //   category: {
+  //     tag: "work",
+  //     color: workColor
+  //   },
+  //   href: "https://www.scotiabank.com/gls/en/index.html#about"
+  // },
   {
     role: "Campus Ambassador",
     company: "Communitech",

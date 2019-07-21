@@ -7,7 +7,6 @@ class LandingPage extends React.Component {
   render() {
     return (
       <div className="landing-page">
-        <img src="/images/pexels.jpeg" alt="" />
         <div className="counter">
           <Typed
             strings={["Hey, I'm Shima!"]}
@@ -26,7 +25,7 @@ class LandingPage extends React.Component {
             backSpeed={60}
             startDelay={1700}
             loop
-            showCursor={false}
+            showCursor={true}
           />
           <span className="social">
             <SocialIcons />

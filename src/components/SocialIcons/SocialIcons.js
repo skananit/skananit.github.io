@@ -38,7 +38,7 @@ class SocialIcons extends React.Component {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/16aFQnEs4ZgQiSFPynXP3tkbdFJLWiWhQ/view?usp=sharing"
+          href="https://drive.google.com/drive/u/1/folders/1DYFKC6SEr9bQeN9FxZoSqi39Je7DR9Ev"
         >
           <FontAwesomeIcon
             icon={faFile}

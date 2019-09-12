@@ -4,13 +4,27 @@ const extraColor = "#9948F7";
 
 export default [
   {
-    role: "Product Manager & Software Engineer",
+    role: "Product Management Trainee",
     company: "Scotiabank",
     logo: "/images/sc.png",
     location: "Waterloo, ON",
     date: "Summer 2019 ",
     description:
-      "I am currently completing my second 16-week internship on a Capital Markets Analytics Project at the digital banking unit in Waterloo. My role involves engineering the frontend application for the highest priority Artificial Intelligence project in Scotiabank’s Global Banking and Markets in a team of five engineers; the project is expected to generate $9-12M in revenues annually. As the Product Manager, I manage the product roadmap by synthesizing stakeholders’ expectations, including managing directors, executives, and end-users in Debt and Equity Capital Markets to prioritize product features and create a concrete product vision.",
+      "I trained as a product manager on two Capital Markets Analytics products at the digital banking unit in Waterloo and successfully delivered the initial phase of the project.  The project was the highest priority Artificial Intelligence project in Scotiabank’s Global Banking and Markets;  expected to generate $9-12M in revenues annually. As the Product Manager, I synthesized stakeholders’ expectations, including managing directors, executives, and end-users in Debt and Equity Capital Markets to prioritize product features and create a concrete product vision.",
+    category: {
+      tag: "work",
+      color: workColor
+    },
+    href: "https://www.scotiabank.com/gls/en/index.html#about"
+  },
+  {
+    role: "Software Engineer Intern",
+    company: "Scotiabank",
+    logo: "/images/sc.png",
+    location: "Waterloo, ON",
+    date: "Summer 2019 ",
+    description:
+      "Along with my product management training, I was a core software engineer on the engineering team that delivered the frontend application. I developed the frontend components of the predictive analytics tool using AngularJS; components included financial charts such as yield curves and debt breakdowns, instrument tables, and functionalities for filtering, search, and navigation. ",
     category: {
       tag: "work",
       color: workColor
@@ -31,6 +45,20 @@ export default [
   //   },
   //   href: "https://www.scotiabank.com/gls/en/index.html#about"
   // },
+  {
+    role: "Hackathon Mentor",
+    company: "Women in Technology Society",
+    logo: "/images/wits.png",
+    location: "London, ON",
+    date: "Winter 2019 ",
+    description:
+      "SheHacks is Canada’s largest 12-hour all-women's hackathon. I helped hackers brainstorm ideas on the challenge, work through the solutions, and gave advice on software development and presentation.  ",
+    category: {
+      tag: "extra",
+      color: extraColor
+    },
+    href: "http://shehacks.ca"
+  },
   {
     role: "Campus Ambassador",
     company: "Communitech",
@@ -60,7 +88,7 @@ export default [
     href: "http://ivey.uwo.ca"
   },
   {
-    role: "Software Engineer",
+    role: "Software Engineer Intern",
     company: "Scotiabank",
     logo: "/images/sc.png",
     location: "Toronto, ON & Waterloo, ON",

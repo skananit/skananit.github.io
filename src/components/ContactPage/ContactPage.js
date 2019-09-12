@@ -15,9 +15,8 @@ class ContactPage extends React.Component {
             <h3> Let's connect,</h3>
 
             <p>
-              I'm currently finishing up an internship at Scotiabank and
-              entering my senior year of university studies. I'd love to chat
-              about any opportunities starting in June 2020.
+              I'm currently in my senior year of university studies and I'd love
+              to chat about any opportunities starting in Summer 2020.
             </p>
             <p>
               I also love exchanging stories with other product managers,

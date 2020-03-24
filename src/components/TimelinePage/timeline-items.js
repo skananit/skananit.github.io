@@ -4,7 +4,21 @@ const extraColor = "#9948F7";
 
 export default [
   {
-    role: "Product Management Trainee",
+    role: "Software Engineer",
+    company: "Amazon",
+    logo: "/images/amazon.png",
+    location: "Toronto, ON",
+    date: "Summer 2020 - Present",
+    description:
+      "Joining Amazon's Toronto office as a fulltime Software Engineer in June 2020.",
+    category: {
+      tag: "work",
+      color: workColor
+    },
+    href: "https://www.scotiabank.com/gls/en/index.html#about"
+  },
+  {
+    role: "Product Manager Intern",
     company: "Scotiabank",
     logo: "/images/sc.png",
     location: "Waterloo, ON",
@@ -173,20 +187,20 @@ export default [
     },
     href: "https://www.eng.uwo.ca/"
   },
-  {
-    role: "Co-founder & President",
-    company: "girl++",
-    logo: "/images/girl.png",
-    location: "London, ON",
-    date: "Winter 2016 - Spring 2019 ",
-    description:
-      "I found the key to succeeding in tech is finding the right community, so I co-founded girl++, a non-profit organization, with a classmate. girl++ aims to empower, educate, and guide females pursuing their post-secondary studies who have an interest in technology. Dedicated to changing the male-dominated culture, we provide girls with female role-models and hands-on experience in all areas of technology. After expanding to Toronto, Ontario this summer, we want to further grow our reach and expand to the rest of Ontario. Hoping to not only interest more girls in technology but empower them to be successful in their careers.",
-    category: {
-      tag: "extra",
-      color: extraColor
-    },
-    href: "https://www.girlplusplus.ca"
-  },
+  // {
+  //   role: "Co-founder & President",
+  //   company: "girl++",
+  //   logo: "/images/girl.png",
+  //   location: "London, ON",
+  //   date: "Winter 2016 - Spring 2019 ",
+  //   description:
+  //     "I found the key to succeeding in tech is finding the right community, so I co-founded girl++, a non-profit organization, with a classmate. girl++ aims to empower, educate, and guide females pursuing their post-secondary studies who have an interest in technology. Dedicated to changing the male-dominated culture, we provide girls with female role-models and hands-on experience in all areas of technology. After expanding to Toronto, Ontario this summer, we want to further grow our reach and expand to the rest of Ontario. Hoping to not only interest more girls in technology but empower them to be successful in their careers.",
+  //   category: {
+  //     tag: "extra",
+  //     color: extraColor
+  //   },
+  //   href: "https://www.girlplusplus.ca"
+  // },
   {
     role: "Technical Analyst",
     company: "World of Forex",

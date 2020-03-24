@@ -13,24 +13,21 @@ class ContactPage extends React.Component {
         <div className="contact-content">
           <div className="contact-details">
             <h3> Let's connect,</h3>
-
             <p>
-              I'm currently in my senior year of university studies and I'd love
-              to chat about any opportunities starting in Summer 2020.
-            </p>
-            <p>
-              I also love exchanging stories with other product managers,
-              developers, designers, and students.
+              I love exchanging stories with other engineers, product managers,
+              designers, and students.
             </p>
             <p> Feel free to say hi!</p>
+
             <div className="email">
-              <img src="/images/headshot.png" className="headshot" alt="" />
+              {/* <img src="/images/headshot.png" className="headshot" alt="" /> */}
               <div className="email-details">
                 <h1 style={{ fontSize: "25px" }}> Shima Kananitodashki</h1>
                 <p>shima.kanani.t@gmail.com</p>
-                <p>+1 (416) 841 0693</p>
               </div>
             </div>
+            <p></p>
+            <p></p>
             <SocialIcons />
           </div>
         </div>

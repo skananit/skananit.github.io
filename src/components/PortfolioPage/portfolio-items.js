@@ -8,7 +8,8 @@ import {
   faAngular,
   faGoogle,
   faGithub,
-  faYoutube
+  faYoutube,
+  faPython
 } from "@fortawesome/free-brands-svg-icons";
 import { faServer, faDatabase } from "@fortawesome/free-solid-svg-icons";
 library.add(
@@ -27,17 +28,21 @@ library.add(
 
 export default [
   {
-    project: "Audio Visualizer",
-    description: "Visualize audio data in real time.",
-    link: "https://github.com/skananit/audio-visualizer",
-    linkLabel: "Project Code",
-    linkIcon: faGithub,
+    project: "Forestcasting",
+    description: "Forest fire management powered by predictive analytics",
+    link: "https://www.youtube.com/watch?v=0TOiHwv9nYo&t=5s",
+    linkLabel: "Project Demo",
+    linkIcon: faYoutube,
     technologies: [
       { tech: "ReactJS", icon: faReact },
-      { tech: "Node.js", icon: faNode }
+      { tech: "Node.js", icon: faNode },
+      { tech: "Express", icon: faServer },
+      { tech: "MongoDB", icon: faDatabase },
+      { tech: "Python", icon: faPython }
     ],
-    background: "/images/audio-visualizer.jpeg"
+    background: "/images/forest1.jpeg"
   },
+
   {
     project: "Self Start, Body Smart",
     description:
@@ -105,5 +110,17 @@ export default [
       { tech: "Express", icon: faServer }
     ],
     background: "/images/blood-donation.png"
+  },
+  {
+    project: "Audio Visualizer",
+    description: "Visualize audio data in real time.",
+    link: "https://github.com/skananit/audio-visualizer",
+    linkLabel: "Project Code",
+    linkIcon: faGithub,
+    technologies: [
+      { tech: "ReactJS", icon: faReact },
+      { tech: "Node.js", icon: faNode }
+    ],
+    background: "/images/audio-visualizer.jpeg"
   }
 ];

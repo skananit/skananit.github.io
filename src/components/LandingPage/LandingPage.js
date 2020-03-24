@@ -15,10 +15,7 @@ class LandingPage extends React.Component {
             showCursor={false}
           />
           <Typed
-            strings={[
-              "a full stack developer  . . .",
-              "and a business student "
-            ]}
+            strings={["full stack developer  . . .", "business student  . . ."]}
             className="tagline"
             typeSpeed={40}
             backSpeed={60}

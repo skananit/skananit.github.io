@@ -67,9 +67,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
+}
+
+.arrow-icon {
+  font-size: 40px;
+  margin: 0px;
   animation-name: icon-wobble;
-  animation-duration: 0.75s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  margin-bottom: 20px;
 }

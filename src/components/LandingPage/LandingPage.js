@@ -32,11 +32,8 @@ class LandingPage extends React.Component {
           </span>
         </div>
         <span className="arrow">
-          <FontAwesomeIcon
-            icon={faChevronDown}
-            style={{ fontSize: "40px", margin: "0px" }}
-          />
-          <p style={{ fontSize: "13px" }}>scroll down</p>
+          <FontAwesomeIcon icon={faChevronDown} className="arrow-icon" />
+          <p style={{ fontSize: "13px", marginTop: "0px" }}>scroll down</p>
         </span>
       </div>
     );

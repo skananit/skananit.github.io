@@ -3,7 +3,8 @@ import "./App.css";
 import TimelinePage from "./components/TimelinePage/TimelinePage.js";
 import LandingPage from "./components/LandingPage/LandingPage.js";
 import PortfolioPage from "./components/PortfolioPage/PortfolioPage.js";
-import ContactPage from "./components/ContactPage/ContactPage.js";
+// import ContactPage from "./components/ContactPage/ContactPage.js";
+// import Navbar from "./components/NavBar/NavBar";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <LandingPage />
       <PortfolioPage />
       <TimelinePage />
-      <ContactPage />
+      {/* <ContactPage /> */}
     </div>
   );
 }

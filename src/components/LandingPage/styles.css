@@ -29,7 +29,7 @@
   margin: 30px;
   font-family: "Dancing Script", cursive;
   width: 100%;
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 500;
   line-height: 4rem;
 }
@@ -45,17 +45,31 @@
   align-items: center;
 }
 
-@media (max-width: 600px) {
-  .main-title {
-    font-size: 50px;
+/* @media (max-width: 600px) {
+  .tagline {
+    font-size: 17px;
   }
-  .tag-line {
+} */
+
+@media (max-width: 1100px) {
+  .main-title {
+    font-size: 40px;
+  }
+  .tagline {
     font-size: 17px;
   }
 }
 
-@media (max-width: 800px) {
-  .main-title {
-    font-size: 55px;
-  }
+.arrow {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-name: icon-wobble;
+  animation-duration: 0.75s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  margin-bottom: 20px;
 }

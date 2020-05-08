@@ -2,6 +2,10 @@ import React from "react";
 import Typed from "react-typed";
 import SocialIcons from "../SocialIcons/SocialIcons";
 import "./styles.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+library.add(faChevronDown);
 
 class LandingPage extends React.Component {
   render() {
@@ -15,11 +19,7 @@ class LandingPage extends React.Component {
             showCursor={false}
           />
           <Typed
-            strings={[
-              "a full stack developer  . . .",
-              "and a business graduate  . . .",
-              "scroll down to checkout my porfolio!",
-            ]}
+            strings={["a full stack developer", "with a business background "]}
             className="tagline"
             typeSpeed={40}
             backSpeed={60}
@@ -31,6 +31,13 @@ class LandingPage extends React.Component {
             <SocialIcons />
           </span>
         </div>
+        <span className="arrow">
+          <FontAwesomeIcon
+            icon={faChevronDown}
+            style={{ fontSize: "40px", margin: "0px" }}
+          />
+          <p style={{ fontSize: "13px" }}>scroll down</p>
+        </span>
       </div>
     );
   }

@@ -1,14 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import {
-  faLinkedinIn,
-  faGithub,
-  faMediumM
-} from "@fortawesome/free-brands-svg-icons";
-import { faFile } from "@fortawesome/free-regular-svg-icons";
+import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
+import { faBookReader } from "@fortawesome/free-solid-svg-icons";
+
 import "./styles.css";
-library.add(faLinkedinIn, faGithub, faMediumM, faFile);
+library.add(faLinkedinIn, faGithub, faPaperPlane, faBookReader);
 
 class SocialIcons extends React.Component {
   render() {
@@ -31,17 +29,25 @@ class SocialIcons extends React.Component {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://medium.com/@shima.kanani.t"
+          href="https://bookshelf.website/shimakanani"
         >
-          <FontAwesomeIcon icon={faMediumM} className="single-icon" />
+          <FontAwesomeIcon
+            icon={faBookReader}
+            className="single-icon"
+            style={{
+              fontSize: "35px",
+              paddingTop: "5px",
+              paddingBottom: "5px",
+            }}
+          />
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://drive.google.com/drive/u/1/folders/1DYFKC6SEr9bQeN9FxZoSqi39Je7DR9Ev"
+          href="mailto:shima.kanani.t@gmail.com"
         >
           <FontAwesomeIcon
-            icon={faFile}
+            icon={faPaperPlane}
             transform="shrink-3"
             className="single-icon"
           />

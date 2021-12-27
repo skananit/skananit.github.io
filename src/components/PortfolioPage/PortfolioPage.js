@@ -7,10 +7,12 @@ class PortfolioPage extends React.Component {
   render() {
     return (
       <div className="portfolio-page">
-        <div className="portfolio-container">
-          <h1>Portfolio</h1>
+        <div className="flex-center flex-direction-col portfolio-container">
+          <h1 className="title-font margin-30 line-height-1 portfolio-title">
+            I design + build products that simplify complex problems.
+          </h1>
         </div>
-        <div className="portfolio-content">
+        <div style={{ zIndex: "2", backgroundColor: "white" }}>
           {portfolioData.map((data, idx) => (
             <PortfolioItem
               idx={idx}
@@ -21,6 +23,7 @@ class PortfolioPage extends React.Component {
               linkLabel={data.linkLabel}
               linkIcon={data.linkIcon}
               technologies={data.technologies}
+              color={data.color}
               key={idx}
             />
           ))}

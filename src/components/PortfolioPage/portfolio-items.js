@@ -9,7 +9,7 @@ import {
   faGoogle,
   faGithub,
   faYoutube,
-  faPython
+  faPython,
 } from "@fortawesome/free-brands-svg-icons";
 import { faServer, faDatabase } from "@fortawesome/free-solid-svg-icons";
 library.add(
@@ -31,16 +31,17 @@ export default [
     project: "Forestcasting",
     description: "Forest fire management powered by predictive analytics",
     link: "https://www.youtube.com/watch?v=0TOiHwv9nYo&t=5s",
-    linkLabel: "Project Demo",
+    linkLabel: "Product Demo",
     linkIcon: faYoutube,
     technologies: [
       { tech: "ReactJS", icon: faReact },
       { tech: "Node.js", icon: faNode },
       { tech: "Express", icon: faServer },
       { tech: "MongoDB", icon: faDatabase },
-      { tech: "Python", icon: faPython }
+      { tech: "Python", icon: faPython },
     ],
-    background: "/images/forest1.jpeg"
+    background: "/images/5.png",
+    color: "rgba(79, 172, 221, 0.7)",
   },
 
   {
@@ -54,9 +55,10 @@ export default [
       { tech: "Ember.js", icon: faEmber },
       { tech: "Node.js", icon: faNode },
       { tech: "Express", icon: faServer },
-      { tech: "MongoDB", icon: faDatabase }
+      { tech: "MongoDB", icon: faDatabase },
     ],
-    background: "/images/self-start.jpg"
+    background: "/images/7.png",
+    color: "rgba(46, 152, 155, 0.7)",
   },
   {
     project: "Geolocation & Geofencing",
@@ -68,9 +70,10 @@ export default [
     technologies: [
       { tech: "ReactJS", icon: faReact },
       { tech: "Node.js", icon: faNode },
-      { tech: "Google Map APIs", icon: faGoogle }
+      { tech: "Google Map APIs", icon: faGoogle },
     ],
-    background: "/images/goe.png"
+    background: "/images/4.png",
+    color: "rgba(172, 110, 82, 0.7)",
   },
   {
     project: "Chat App",
@@ -81,9 +84,10 @@ export default [
     linkIcon: faGithub,
     technologies: [
       { tech: "Java", icon: faJava },
-      { tech: "Socket Programming", icon: faServer }
+      { tech: "Socket Programming", icon: faServer },
     ],
-    background: "/images/chat-app.jpg"
+    background: "/images/2.png",
+    color: "rgba(21, 157, 112, 0.7)",
   },
   {
     project: "Portfolio Website",
@@ -93,7 +97,8 @@ export default [
     linkLabel: "Project Code",
     linkIcon: faGithub,
     technologies: [{ tech: "ReactJS", icon: faReact }],
-    background: "/images/portfolio.png"
+    background: "/images/6.png",
+    color: "rgba(127, 127, 127, 0.7)",
   },
 
   {
@@ -107,9 +112,10 @@ export default [
       { tech: "Angular", icon: faAngular },
       { tech: "Node.js", icon: faNode },
       { tech: "MySQL", icon: faDatabase },
-      { tech: "Express", icon: faServer }
+      { tech: "Express", icon: faServer },
     ],
-    background: "/images/blood-donation.png"
+    background: "/images/1.png",
+    color: "rgba(21, 108, 157, 0.7)",
   },
   {
     project: "Audio Visualizer",
@@ -119,8 +125,9 @@ export default [
     linkIcon: faGithub,
     technologies: [
       { tech: "ReactJS", icon: faReact },
-      { tech: "Node.js", icon: faNode }
+      { tech: "Node.js", icon: faNode },
     ],
-    background: "/images/audio-visualizer.jpeg"
-  }
+    background: "/images/3.png",
+    color: "rgba(212, 90, 118, 0.7)",
+  },
 ];

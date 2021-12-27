@@ -4,220 +4,49 @@
 }
 
 .portfolio-container {
-  width: 40%;
+  width: 60%;
+  height: 100vh;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(to top, white, lightgray);
 }
 
-@media (max-width: 600px) {
-  .portfolio-container {
-    width: 100vw;
-    height: 10vh;
-    z-index: 1;
-  }
-  .portfolio-content {
-    width: 100vw;
-  }
-  .portfolio-page {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-  }
-  .portfolio-item {
-    width: 100vw;
-  }
-  .image-container {
-    width: 100vw;
-  }
-}
-
-.portfolio-content {
-  width: 60%;
-}
-
-h4 {
-  font-size: 15px;
-  font-weight: 900;
-  padding: 0%;
-  margin: 0%;
-  font-family: "Raleway", sans-serif;
-}
-
-.icon {
-  font-size: 35px;
-  color: black;
-}
-
-.technology-description {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.technologies {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-bottom: 2%;
-  width: 60%;
-}
-.portfolio-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  font-style: none;
-  height: 100vh;
-  background-position: center;
-  transition: transform 6s, filter 6s ease-in-out;
-  filter: grayscale(35%);
-}
-.portfolio-item:hover {
-  filter: grayscale(0);
-  transform: scale(1.1);
+.portfolio-title {
+  text-align: left;
 }
 
 .image-container {
-  height: 100vh;
+  min-height: 100vh;
+  min-width: 300px;
   overflow: hidden;
-}
-.shutter-out-horizontal {
-  -webkit-transition: color 300ms;
-  transition: color 300ms;
-  position: relative;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  font-size: 16px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 100;
-  text-align: center;
-  border: none;
-  background-color: transparent;
-}
-.shutter-out-horizontal:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: lightgray;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transform-origin: 50%;
-  transform-origin: 50%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition: 300ms ease-out;
-  transition: 300ms ease-out;
-}
-.shutter-out-horizontal:hover:before {
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+  margin: 60px;
 }
 
-.title-box {
-  width: 60%;
-  padding: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 20%;
+.portfolio-item {
+  height: 90vh;
+  justify-content: flex-start;
+  background-size: cover;
+  background-position: center;
 }
 
-.project-title {
-  color: black;
-  font-weight: 100;
-  padding: 0%;
-  margin: 0%;
-  text-align: center;
-  margin-bottom: 2%;
-  width: 60%;
-}
-.description-box {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.9);
-  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 4s; /* Firefox < 16 */
-  -ms-animation: fadein 4s; /* Internet Explorer */
-  -o-animation: fadein 4s; /* Opera < 12.1 */
-  animation: fadein 4s;
-  padding: 5%;
+.technologies-wrapper {
+  flex-wrap: wrap;
+  min-width: 90%;
 }
 
-@keyframes fadein {
-  from {
-    opacity: 0;
+@media (max-width: 800px) {
+  .portfolio-page {
+    flex-direction: column;
   }
-  to {
-    opacity: 1;
+  .portfolio-container {
+    width: 100vw;
+    height: 80vh;
+    position: initial;
   }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-  from {
-    opacity: 0;
+  .portfolio-title {
+    text-align: center;
   }
-  to {
-    opacity: 1;
+  .image-container {
+    margin: 30px;
   }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.code {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }

@@ -29,21 +29,6 @@ class SocialIcons extends React.Component {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://bookshelf.website/shimakanani"
-        >
-          <FontAwesomeIcon
-            icon={faBookReader}
-            className="single-icon"
-            style={{
-              fontSize: "35px",
-              paddingTop: "5px",
-              paddingBottom: "5px",
-            }}
-          />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
           href="mailto:shima.kanani.t@gmail.com"
         >
           <FontAwesomeIcon

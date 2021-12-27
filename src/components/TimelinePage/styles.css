@@ -1,41 +1,81 @@
-.timeline-page {
-  display: flex;
+.card.resume-card {
+  min-width: 250px;
+  background-color: #f5f5f5;
+}
+.card.resume-card:hover {
+  background-color: #e4e4e4;
+  transform: scale(1.1);
+  transition: transform 1s, filter 1s ease-in-out;
+}
+.card {
+  overflow: hidden;
+  background-color: var(--swatch_bdfdaccd);
+}
+._2-column-grid.resume-grid {
+  gap: 50px 50px;
+  margin: 30px;
+}
+._2-column-grid {
+  display: grid;
+  grid-auto-columns: 1fr;
+  gap: 100px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+.image.resume-social-logo {
+  margin-right: 12px;
+  margin-left: 20px;
+  width: 150px;
+  padding-bottom: 12px;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+.timeline-item-title {
+  color: rgb(82, 80, 80);
+  text-align: left;
+}
+
+.timeline-item-date {
+  color: rgb(110, 110, 110);
+  text-align: left;
+}
+
+.timeline-item-header {
   flex-direction: row;
 }
 
-.timeline-container {
-  width: 40%;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(to bottom, white, lightgray);
-}
-
-.timeline-content {
-  width: 60%;
-}
-
-.logo {
-  width: 50%;
-}
-
-@media (max-width: 600px) {
-  .timeline-container {
-    width: 100%;
-    height: 10vh;
-    z-index: 100;
-  }
-  .timeline-content {
-    width: 100vw;
-  }
-  .timeline-page {
-    display: flex;
+@media (max-width: 1000px) {
+  .timeline-item-header {
     flex-direction: column;
-    width: 100vw;
   }
+  .timeline-item-date {
+    text-align: center;
+  }
+  .timeline-description {
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  ._2-column-grid {
+    display: grid;
+    grid-auto-columns: 1fr;
+    gap: 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  ._2-column-grid.resume-grid {
+    margin: 0px;
+  }
+}
+
+.main {
+  position: relative;
+  z-index: 2;
+  background: #f56469;
+  height: 1500px;
+  margin-bottom: 350px;
+  box-shadow: 3px 2px 2px 0px rgba(51, 51, 51, 0.5);
 }

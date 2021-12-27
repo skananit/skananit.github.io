@@ -1,6 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+library.add(faChevronRight);
 
 const PortfolioItem = ({
   idx,
@@ -10,73 +13,53 @@ const PortfolioItem = ({
   link,
   linkIcon,
   linkLabel,
-  technologies
+  technologies,
+  color,
 }) => {
-  const [clicked, onClicked] = useState(false);
-
   return (
     <div className="image-container">
       <div
-        className="portfolio-item"
-        style={{
-          backgroundImage: "url(" + background + ")"
-        }}
+        className="padding-5 flex-center flex-direction-col border-radius-20 color-white text-center portfolio-item"
+        style={{ backgroundImage: "url(" + background + ")" }}
         key={idx}
       >
-        {!clicked ? (
-          <div className="title-box">
-            <h3 className="project-title">{project}</h3>
-            <button
-              className="shutter-out-horizontal"
-              onClick={() => onClicked(!clicked)}
-            >
-              Learn More
-            </button>
+        <div className="font-weight-700 font-family-inter font-size-25 margin-top-20 margin-bottom-20">
+          {project}
+        </div>
+        <div
+          className="flex-center flex-direction-col width-100-percent border-radius-30 justify-content-space-evenly"
+          style={{ backgroundColor: color }}
+        >
+          <div className="font-wight-100 font-family-raleway font-size-15 width-90-percent">
+            {description}
           </div>
-        ) : (
-          <div className="description-box">
-            <h3 className="project-title">{project}</h3>
-            <p
-              style={{
-                textAlign: "center",
-                width: "80%"
-              }}
-            >
-              {description}
-            </p>
-            <h4>{"Technologies Used:"}</h4>
-            <div className="technologies">
-              {technologies.map((technologies, idx) => (
-                <div key={idx} className="technology-description">
-                  <p
-                    style={{
-                      textAlign: "center"
-                    }}
-                  >
-                    {technologies.tech}
-                  </p>
-                  <FontAwesomeIcon icon={technologies.icon} className="icon" />
+          <div className="flex-center flex-direaction-row  font-family-raleway font-size-15 margin-bottom-20">
+            {linkLabel}
+            <FontAwesomeIcon
+              icon={faChevronRight}
+              className="padding-5 color-white"
+            />
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon
+                icon={linkIcon}
+                className="font-size-30 color-white"
+              />
+            </a>
+          </div>
+          <div className="flex-center flex-direction-row technologies-wrapper">
+            {technologies.map((technologies, idx) => (
+              <div key={idx} className="margin-15">
+                <FontAwesomeIcon
+                  icon={technologies.icon}
+                  className="font-size-30 color-white"
+                />
+                <div className="text-center font-family-inter font-size-12 font-wight-800 ">
+                  {technologies.tech}
                 </div>
-              ))}
-            </div>
-
-            <div className="code">
-              <p
-                style={{
-                  fontWeight: "900",
-                  textAlign: "center",
-                  marginRight: "0.5%",
-                  display: "inline"
-                }}
-              >
-                View {linkLabel}:
-              </p>
-              <a href={link} target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={linkIcon} className="icon" />
-              </a>
-            </div>
+              </div>
+            ))}
           </div>
-        )}
+        </div>
       </div>
     </div>
   );

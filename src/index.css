@@ -1,33 +1,171 @@
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1 {
+  font-family: "Inter";
+  font-weight: 500;
+  letter-spacing: -0.3vw;
+  line-height: 5.5vw;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 h3 {
-  font-family: "Playfair Display", serif;
+  font-family: "Inter";
   font-style: bold;
   font-size: 28px;
 }
-
+h4 {
+  font-family: "Inter";
+  font-size: 400px;
+  font-weight: 50;
+}
 p {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
   font-size: 14px;
 }
-
-h1 {
-  font-family: "Dancing Script", cursive;
-  font-size: 6vw;
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.title-font {
+  font-size: 50px;
+}
+.description-font {
+  font-size: 20px;
+}
+@media (max-width: 800px) {
+  .title-font {
+    font-size: 40px;
+  }
+  .description-font {
+    font-size: 15px;
+  }
+}
+.font-weight-100 {
   font-weight: 100;
 }
-@media (max-width: 700px) {
-  h1 {
-    font-size: 45px;
-  }
+.font-weight-500 {
+  font-weight: 500;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
+.font-weight-800 {
+  font-weight: 800;
+}
+.font-family-inter {
+  font-family: "Inter";
+}
+.font-family-raleway {
+  font-family: "Raleway", sans-serif;
+}
+.font-size-10 {
+  font-size: 10px;
+}
+.font-size-12 {
+  font-size: 12px;
+}
+.font-size-15 {
+  font-size: 15px;
+}
+.font-size-20 {
+  font-size: 20px;
+}
+.font-size-25 {
+  font-size: 25px;
+}
+.font-size-30 {
+  font-size: 30px;
+}
+.font-size-40 {
+  font-size: 40px;
+}
+.line-height-1 {
+  line-height: 1;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-direction-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-direction-row {
+  display: flex;
+  flex-direction: row;
+}
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.width-50-percent {
+  width: 50%;
+}
+.width-90-percent {
+  width: 90%;
+}
+.width-100-percent {
+  width: 100%;
+}
+.min-height-400 {
+  min-height: 400px;
+}
+.overflow-auto {
+  overflow: auto;
+}
+.padding-0 {
+  padding: 0px;
+}
+.padding-5 {
+  padding: 5px;
+}
+.padding-20 {
+  padding: 20px;
+}
+.padding-30 {
+  padding: 30px;
+}
+.padding-left-80 {
+  padding-left: 80px;
+}
+.padding-right-80 {
+  padding-right: 80px;
+}
+.margin-0 {
+  margin: 0px;
+}
+.margin-15 {
+  margin: 15px;
+}
+.margin-30 {
+  margin: 30px;
+}
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+.margin-top-20 {
+  margin-top: 20px;
+}
+.margin-top-40 {
+  margin-top: 40px;
+}
+.border-radius-20 {
+  border-radius: 20px;
+}
+.border-radius-30 {
+  border-radius: 30px;
+}
+.color-white {
+  color: white;
 }

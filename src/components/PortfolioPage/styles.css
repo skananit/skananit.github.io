@@ -13,6 +13,7 @@
 
 .portfolio-title {
   text-align: left;
+  padding-left: 30px;
 }
 
 .image-container {
@@ -47,6 +48,7 @@
   }
   .portfolio-title {
     text-align: center;
+    padding-left: 0px;
   }
   .image-container {
     margin: 30px;
@@ -68,5 +70,8 @@
   }
   .project-dscription {
     font-size: 20px;
+  }
+  .portfolio-title {
+    padding-left: 50px;
   }
 }

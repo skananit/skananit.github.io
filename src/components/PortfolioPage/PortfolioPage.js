@@ -12,7 +12,7 @@ class PortfolioPage extends React.Component {
             I design + build products that simplify complex problems.
           </h1>
         </div>
-        <div style={{ zIndex: "2", backgroundColor: "white" }}>
+        <div>
           {portfolioData.map((data, idx) => (
             <PortfolioItem
               idx={idx}

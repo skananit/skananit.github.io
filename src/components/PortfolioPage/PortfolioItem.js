@@ -23,7 +23,7 @@ const PortfolioItem = ({
         style={{ backgroundImage: "url(" + background + ")" }}
         key={idx}
       >
-        <div className="font-weight-700 font-family-inter font-size-25 margin-top-20 margin-bottom-20">
+        <div className="font-weight-700 font-family-inter project-title">
           {project}
         </div>
         <div

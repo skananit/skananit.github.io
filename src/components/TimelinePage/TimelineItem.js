@@ -22,7 +22,7 @@ const TimelineItem = ({ idx, role, logo, date, description, href }) => {
         <div className="flex-center margin-bottom-20 timeline-item-header">
           <img className="image resume-social-logo" src={logo}></img>
           <div className="flex-direction-col">
-            <div className="font-weight-700 font-family-inter font-size-15 line-height-1 timeline-item-title">
+            <div className="font-weight-700 font-family-inter font-size-17 line-height-1 timeline-item-title">
               {role}
             </div>
             <div className="font-wight-100 font-family-inter font-size-12 timeline-item-date">

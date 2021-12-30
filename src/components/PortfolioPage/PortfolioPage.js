@@ -8,7 +8,7 @@ class PortfolioPage extends React.Component {
     return (
       <div className="portfolio-page">
         <div className="flex-center flex-direction-col portfolio-container">
-          <h1 className="title-font margin-30 line-height-1 portfolio-title">
+          <h1 className="title-font margin-30 line-height-1 portfolio-title letter-spacing-normal">
             I design + build products that simplify complex problems.
           </h1>
         </div>

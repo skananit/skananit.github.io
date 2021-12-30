@@ -8,7 +8,7 @@ class TimelinePage extends React.Component {
   render() {
     return (
       <div className="flex-center flex-direction-col padding-30">
-        <h1 className="text-center title-font line-height-1">
+        <h1 className="text-center title-font line-height-1 letter-spacing-normal">
           Professional Experience
         </h1>
         <p className="font-weight-100 text-center margin-0 margin-bottom-30 description-font">

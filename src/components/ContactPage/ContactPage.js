@@ -9,7 +9,7 @@ class ContactPage extends React.Component {
       <Fade big>
         <div className="flex-center flex-direction-col">
           <div className="flex-center flex-row margin-top-40">
-            <h1 className="text-center margin-0 title-font line-height-1">
+            <h1 className="text-center margin-0 title-font line-height-1 letter-spacing-normal">
               Let's Connect
             </h1>
           </div>

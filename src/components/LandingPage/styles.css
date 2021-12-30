@@ -43,3 +43,8 @@
     font-size: 40px;
   }
 }
+@media (min-width: 1700px) {
+  .main-title-wrapper {
+    margin-bottom: 250px;
+  }
+}

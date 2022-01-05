@@ -19,15 +19,15 @@ class LandingPage extends React.Component {
           />
           <Typed
             strings={[
-              "a product enthusiust who codes ",
-              "a fullstack engineer ",
+              "a product enthusiast coder ",
+              "full-stack engineer ",
               "with a business background ",
               "based in Toronto",
             ]}
             className="font-wight-100 font-family-raleway flex-center flex-direction-row font-size-20 width-100-percent "
             typeSpeed={40}
             backSpeed={60}
-            startDelay={1700}
+            startDelay={1200}
             loop
             showCursor={true}
           />

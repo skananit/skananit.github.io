@@ -18,7 +18,7 @@ export default [
     location: "Waterloo, ON",
     date: "May 2019 - August 2019",
     description:
-      "Delivered MVPs for two smart recommendation engines that aid Capital Market analysts in making relevant, timely decisions whn pursuing clients, leading to $9-12M in revenues annually",
+      "Delivered MVPs for two smart recommendation engines that aid Capital Market analysts in making relevant, timely decisions when pursuing clients, leading to $9-12M in revenues annually",
     description2:
       "I trained as a product manager on two Capital Markets Analytics products at the digital banking unit in Waterloo and successfully delivered the initial phase of the project.  The project was the highest priority Artificial Intelligence project in Scotiabank’s Global Banking and Markets;  expected to generate $9-12M in revenues annually. As the Product Manager, I synthesized stakeholders’ expectations, including managing directors, executives, and end-users in Debt and Equity Capital Markets to prioritize product features and create a concrete product vision.",
     href: "https://www.scotiabank.com/gls/en/index.html#about",
@@ -54,7 +54,7 @@ export default [
     location: "London, ON",
     date: "September 2018 - April 2020 ",
     description:
-      "Pursued a dual degree with Honors Businss Administration, Bachelor of Arts, along with Software Engineering",
+      "Pursued a dual degree with Honors Business Administration, Bachelor of Arts, along with Software Engineering",
     description2:
       " Ivey is famous for its practical, collaborative teaching approach by           relying extensively on the case method of study. Learning is done           through working with actual business challenges faced by real           managers. Every day in class we analyze information, make decisions,           and defend those decisions when others around us may disagree. As a           dual degree student, I take Software Engineering and Business courses           over the span of five years at Western's Engineering Faculty and Ivey           Business School.",
     href: "http://ivey.uwo.ca",
@@ -66,7 +66,7 @@ export default [
     location: "London, ON",
     date: "September 2015 - April 2020",
     description:
-      "Studied Software Enginering, Bachelor of Engineering Science. Recieved the Western Excellence scholarship",
+      "Studied Software Engineering, Bachelor of Engineering Science. Received the Western Excellence scholarship",
     href: "http://worldofforex.com",
   },
 ];

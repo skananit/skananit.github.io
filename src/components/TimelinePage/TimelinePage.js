@@ -11,9 +11,10 @@ class TimelinePage extends React.Component {
         <h1 className="text-center title-font line-height-1 letter-spacing-normal">
           Professional Experience
         </h1>
-        <p className="font-weight-100 text-center margin-0 margin-bottom-30 description-font">
-          I have a diverse background in business & software engineering roles
-          across Fintech & Ecommerce industries
+        <p className="text-center font-weight-100 margin-0 margin-bottom-30 description-font padding-left-right-20">
+          I have a diverse background in building E-commerce distributed systems
+          at scale and managing Fintech product roadmaps with Bachelor’s degrees
+          in Software Engineering and Business Administration.
         </p>
         <div className="_2-column-grid resume-grid wf-grid">
           {timelineData.map((data, idx) => (

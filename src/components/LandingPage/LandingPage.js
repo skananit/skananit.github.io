@@ -10,7 +10,7 @@ class LandingPage extends React.Component {
   render() {
     return (
       <div className="landing-page z-index-2">
-        <div className="width-100-percent flex-center flex-direction-col text-center main-title-wrapper ">
+        <div className="width-100-percent flex-center flex-direction-col text-center main-title-wrapper">
           <Typed
             strings={["Hi, I'm Shima!"]}
             className="margin-30 width-100-percent font-family-inter font-weight-500 main-title"

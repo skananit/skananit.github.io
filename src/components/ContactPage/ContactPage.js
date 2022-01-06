@@ -19,10 +19,7 @@ class ContactPage extends React.Component {
             tech and would love to chat. Please feel free to reach out!
           </p>
           <SocialIcons />
-          <img
-            src={"/images/10.png"}
-            style={{ width: "100px", marginBottom: "40px" }}
-          ></img>
+          <img src={"/images/10.png"} className="footer-image"></img>
         </div>
       </Fade>
     );

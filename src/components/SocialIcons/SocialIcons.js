@@ -1,12 +1,16 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedinIn,
+  faGithub,
+  faPinterest,
+} from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
 import { faBookReader } from "@fortawesome/free-solid-svg-icons";
 
 import "./styles.css";
-library.add(faLinkedinIn, faGithub, faPaperPlane, faBookReader);
+library.add(faLinkedinIn, faGithub, faPinterest, faPaperPlane, faBookReader);
 
 class SocialIcons extends React.Component {
   render() {
@@ -36,6 +40,13 @@ class SocialIcons extends React.Component {
             transform="shrink-3"
             className="single-icon"
           />
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.pinterest.ca/shimakanani/"
+        >
+          <FontAwesomeIcon icon={faPinterest} className="single-icon" />
         </a>
       </div>
     );

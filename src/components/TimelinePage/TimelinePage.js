@@ -9,7 +9,7 @@ class TimelinePage extends React.Component {
     return (
       <div className="flex-center flex-direction-col padding-30">
         <h1 className="text-center title-font line-height-1 letter-spacing-normal">
-          Professional Experience
+          Experience + Education
         </h1>
         <p className="text-center font-weight-100 margin-0 margin-bottom-30 description-font padding-left-right-20">
           I have a diverse background in building E-commerce distributed systems

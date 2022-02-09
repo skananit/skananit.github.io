@@ -18,7 +18,7 @@
 .main-title-wrapper {
   margin-bottom: 180px;
   margin-right: 20px;
-  color: #7d7d7d;
+  color: #86868b;
 }
 
 .main-title {
@@ -30,7 +30,7 @@
 .arrow {
   position: absolute;
   bottom: 0px;
-  color: #7d7d7d;
+  color: #86868b;
 }
 
 .arrow-icon {
@@ -38,7 +38,7 @@
   animation-duration: 1.2s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  color: #7d7d7d;
+  color: #86868b;
 }
 
 @media (max-width: 1100px) {

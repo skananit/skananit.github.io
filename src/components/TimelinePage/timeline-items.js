@@ -8,7 +8,7 @@ export default [
     location: "Toronto, ON",
     date: "2022 - Present",
     description:
-      "Building software on the Energy Services team which helps homeowners save money and conserve energy, while allowing utility grid operators to balance demand and supply to avoid overloading the power grid leading to blackouts.",
+      "Building commercial and residential load management solutions offering real savings and comfort for ecobee customers, while allowing our partner utility companies to ensure demand response and grid resiliency by automatically balancing supply and demand.",
     href: "https://www.scotiabank.com/gls/en/index.html#about",
   },
 
